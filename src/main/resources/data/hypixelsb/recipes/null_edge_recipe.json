@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:null_atom"
+    },
+    "1": {
+      "item": "hypixelsb:null_atom"
+    },
+    "2": {
+      "item": "hypixelsb:null_atom"
+    },
+    "3": {
+      "item": "hypixelsb:null_atom"
+    },
+    "4": {
+      "item": "hypixelsb:null_atom"
+    },
+    "5": {
+      "item": "hypixelsb:null_atom"
+    },
+    "6": {
+      "item": "hypixelsb:null_atom"
+    },
+    "7": {
+      "item": "hypixelsb:null_atom"
+    },
+    "8": {
+      "item": "hypixelsb:null_atom"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:null_edge",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EtherwarpMerger"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnchantedQuartzBlock"
+      },
+      {
+        "value": "CUSTOM:EtherwarpMerger"
+      },
+      {
+        "value": "CUSTOM:EnchantedQuartzBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NullBlade"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AspectOfTheVoid"
+    },
+    "name": "aotv_recipe",
+    "namespace": "mod"
+  }
+}

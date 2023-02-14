@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:enchanted_obsidian"
+    },
+    "1": {
+      "item": "minecraft:nether_star"
+    },
+    "2": {
+      "item": "hypixelsb:enchanted_obsidian"
+    },
+    "4": {
+      "item": "hypixelsb:enchanted_quartz_block"
+    },
+    "7": {
+      "item": "hypixelsb:enchanted_obsidian"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:daylight_saver",
+    "count": 1
+  }
+}

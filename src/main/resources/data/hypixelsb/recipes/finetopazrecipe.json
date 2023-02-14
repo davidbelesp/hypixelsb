@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:flawed_topaz"
+    },
+    "1": {
+      "item": "hypixelsb:flawed_topaz"
+    },
+    "2": {
+      "item": "hypixelsb:flawed_topaz"
+    },
+    "3": {
+      "item": "hypixelsb:flawed_topaz"
+    },
+    "4": {
+      "item": "hypixelsb:flawed_topaz"
+    },
+    "5": {
+      "item": "hypixelsb:flawed_topaz"
+    },
+    "6": {
+      "item": "hypixelsb:flawed_topaz"
+    },
+    "7": {
+      "item": "hypixelsb:flawed_topaz"
+    },
+    "8": {
+      "item": "hypixelsb:flawed_topaz"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:fine_topaz",
+    "count": 1
+  }
+}

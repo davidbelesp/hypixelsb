@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "judgement_core_v_2"
+      },
+      "name": "default"
+    }
+  }
+}

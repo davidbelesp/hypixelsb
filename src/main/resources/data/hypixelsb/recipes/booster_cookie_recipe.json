@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:perfect_topaz"
+    },
+    "1": {
+      "item": "hypixelsb:perfect_sapphire"
+    },
+    "2": {
+      "item": "hypixelsb:perfect_topaz"
+    },
+    "3": {
+      "item": "hypixelsb:perfect_ruby"
+    },
+    "4": {
+      "item": "minecraft:cookie"
+    },
+    "5": {
+      "item": "hypixelsb:perfect_ruby"
+    },
+    "6": {
+      "item": "hypixelsb:perfect_amethyst"
+    },
+    "7": {
+      "item": "hypixelsb:perfect_sapphire"
+    },
+    "8": {
+      "item": "hypixelsb:perfect_amethyst"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:booster_cookie",
+    "count": 1
+  }
+}

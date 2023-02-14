@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:enchanted_gold"
+    },
+    "1": {
+      "item": "hypixelsb:enchanted_gold"
+    },
+    "2": {
+      "item": "hypixelsb:enchanted_gold"
+    },
+    "3": {
+      "item": "hypixelsb:enchanted_gold"
+    },
+    "4": {
+      "item": "minecraft:netherite_block"
+    },
+    "5": {
+      "item": "hypixelsb:enchanted_gold"
+    },
+    "6": {
+      "item": "hypixelsb:enchanted_gold"
+    },
+    "7": {
+      "item": "hypixelsb:enchanted_gold"
+    },
+    "8": {
+      "item": "hypixelsb:enchanted_gold"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:enchanted_gold_block",
+    "count": 1
+  }
+}

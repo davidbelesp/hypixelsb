@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "wither"
+      },
+      "name": "default"
+    },
+    "b": {
+      "map": {
+        "2": "wither_black"
+      },
+      "name": "b"
+    }
+  }
+}

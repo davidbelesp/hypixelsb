@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:enchanted_iron"
+    },
+    "1": {
+      "item": "hypixelsb:enchanted_iron"
+    },
+    "2": {
+      "item": "hypixelsb:enchanted_iron"
+    },
+    "3": {
+      "item": "hypixelsb:enchanted_iron"
+    },
+    "4": {
+      "item": "minecraft:netherite_block"
+    },
+    "5": {
+      "item": "hypixelsb:enchanted_iron"
+    },
+    "6": {
+      "item": "hypixelsb:enchanted_iron"
+    },
+    "7": {
+      "item": "hypixelsb:enchanted_iron"
+    },
+    "8": {
+      "item": "hypixelsb:enchanted_iron"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:enchanted_iron_block",
+    "count": 1
+  }
+}

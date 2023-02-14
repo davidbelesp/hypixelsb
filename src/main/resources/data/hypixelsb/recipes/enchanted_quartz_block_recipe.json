@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:enchanted_quartz"
+    },
+    "1": {
+      "item": "hypixelsb:enchanted_quartz"
+    },
+    "2": {
+      "item": "hypixelsb:enchanted_quartz"
+    },
+    "3": {
+      "item": "hypixelsb:enchanted_quartz"
+    },
+    "4": {
+      "item": "minecraft:netherite_block"
+    },
+    "5": {
+      "item": "hypixelsb:enchanted_quartz"
+    },
+    "6": {
+      "item": "hypixelsb:enchanted_quartz"
+    },
+    "7": {
+      "item": "hypixelsb:enchanted_quartz"
+    },
+    "8": {
+      "item": "hypixelsb:enchanted_quartz"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:enchanted_quartz_block",
+    "count": 1
+  }
+}

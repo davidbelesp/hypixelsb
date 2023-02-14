@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:wither_catalyst"
+    },
+    "1": {
+      "item": "hypixelsb:wither_catalyst"
+    },
+    "2": {
+      "item": "hypixelsb:wither_catalyst"
+    },
+    "3": {
+      "item": "hypixelsb:wither_catalyst"
+    },
+    "4": {
+      "item": "hypixelsb:wither_catalyst"
+    },
+    "5": {
+      "item": "hypixelsb:wither_catalyst"
+    },
+    "6": {
+      "item": "hypixelsb:wither_catalyst"
+    },
+    "7": {
+      "item": "hypixelsb:wither_catalyst"
+    },
+    "8": {
+      "item": "hypixelsb:wither_catalyst"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:necron_catalyst",
+    "count": 1
+  }
+}

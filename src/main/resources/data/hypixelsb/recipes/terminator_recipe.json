@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "hypixelsb:null_blade"
+    },
+    "2": {
+      "item": "hypixelsb:soul_string"
+    },
+    "3": {
+      "item": "hypixelsb:enchanted_quartz_block"
+    },
+    "4": {
+      "item": "hypixelsb:judgement_core"
+    },
+    "5": {
+      "item": "hypixelsb:soul_string"
+    },
+    "7": {
+      "item": "hypixelsb:null_blade"
+    },
+    "8": {
+      "item": "hypixelsb:soul_string"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:terminator",
+    "count": 1
+  }
+}

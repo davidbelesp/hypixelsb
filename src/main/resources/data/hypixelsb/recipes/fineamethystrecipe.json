@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:flawed_amethyst"
+    },
+    "1": {
+      "item": "hypixelsb:flawed_amethyst"
+    },
+    "2": {
+      "item": "hypixelsb:flawed_amethyst"
+    },
+    "3": {
+      "item": "hypixelsb:flawed_amethyst"
+    },
+    "4": {
+      "item": "hypixelsb:flawed_amethyst"
+    },
+    "5": {
+      "item": "hypixelsb:flawed_amethyst"
+    },
+    "6": {
+      "item": "hypixelsb:flawed_amethyst"
+    },
+    "7": {
+      "item": "hypixelsb:flawed_amethyst"
+    },
+    "8": {
+      "item": "hypixelsb:flawed_amethyst"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:fine_amethyst",
+    "count": 1
+  }
+}

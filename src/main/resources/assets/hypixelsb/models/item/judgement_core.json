@@ -1,0 +1,7 @@
+{
+  "parent": "hypixelsb:custom/judgementcore",
+  "textures": {
+    "0": "hypixelsb:blocks/judgement_core_v_2",
+    "particle": "hypixelsb:items/judgement_core_v_2"
+  }
+}

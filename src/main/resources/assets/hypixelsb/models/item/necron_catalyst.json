@@ -1,0 +1,7 @@
+{
+  "parent": "hypixelsb:custom/skull_black",
+  "textures": {
+    "2": "hypixelsb:blocks/wither_black",
+    "particle": "hypixelsb:items/wither_black"
+  }
+}

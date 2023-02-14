@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:bigfoots_lasso"
+    },
+    "1": {
+      "item": "hypixelsb:wither_healing"
+    },
+    "2": {
+      "item": "hypixelsb:bigfoots_lasso"
+    },
+    "3": {
+      "item": "hypixelsb:bigfoots_lasso"
+    },
+    "4": {
+      "item": "hypixelsb:necrons_blade"
+    },
+    "5": {
+      "item": "hypixelsb:bigfoots_lasso"
+    },
+    "6": {
+      "item": "hypixelsb:bigfoots_lasso"
+    },
+    "7": {
+      "item": "hypixelsb:bigfoots_lasso"
+    },
+    "8": {
+      "item": "hypixelsb:bigfoots_lasso"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:scylla",
+    "count": 1
+  }
+}

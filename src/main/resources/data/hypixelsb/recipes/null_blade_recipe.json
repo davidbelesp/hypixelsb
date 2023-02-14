@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:enchanted_obsidian"
+    },
+    "1": {
+      "item": "hypixelsb:null_edge"
+    },
+    "2": {
+      "item": "hypixelsb:enchanted_obsidian"
+    },
+    "3": {
+      "item": "hypixelsb:enchanted_obsidian"
+    },
+    "4": {
+      "item": "hypixelsb:null_edge"
+    },
+    "5": {
+      "item": "hypixelsb:enchanted_obsidian"
+    },
+    "6": {
+      "item": "hypixelsb:enchanted_obsidian"
+    },
+    "7": {
+      "item": "hypixelsb:null_edge"
+    },
+    "8": {
+      "item": "hypixelsb:enchanted_obsidian"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:null_blade",
+    "count": 1
+  }
+}

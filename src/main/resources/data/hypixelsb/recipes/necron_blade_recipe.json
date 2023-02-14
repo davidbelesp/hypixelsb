@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:necron_catalyst"
+    },
+    "1": {
+      "item": "hypixelsb:necron_catalyst"
+    },
+    "2": {
+      "item": "hypixelsb:necron_catalyst"
+    },
+    "3": {
+      "item": "hypixelsb:necron_catalyst"
+    },
+    "4": {
+      "item": "hypixelsb:necrons_handle"
+    },
+    "5": {
+      "item": "hypixelsb:necron_catalyst"
+    },
+    "6": {
+      "item": "hypixelsb:necron_catalyst"
+    },
+    "7": {
+      "item": "hypixelsb:necron_catalyst"
+    },
+    "8": {
+      "item": "hypixelsb:necron_catalyst"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:necrons_blade",
+    "count": 1
+  }
+}

@@ -1,0 +1,1021 @@
+{
+  "mod_elements": [
+    {
+      "name": "NecronsHandle",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "necrons_handle",
+      "path": "~/Items"
+    },
+    {
+      "name": "Hyperion",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hyperion",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "AspectOfTheVoid",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "aspect_of_the_void",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "AspectofthevoidProcedure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aspectofthevoid_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GyrokineticWandProcedure",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyrokinetic_wand_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GyrokineticWand",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyrokinetic_wand",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "FlawedRuby",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flawed_ruby",
+      "path": "~/Items"
+    },
+    {
+      "name": "FlawedSapphire",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flawed_sapphire",
+      "path": "~/Items"
+    },
+    {
+      "name": "FlawedTopaz",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flawed_topaz",
+      "path": "~/Items"
+    },
+    {
+      "name": "FlawedAmethyst",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flawed_amethyst",
+      "path": "~/Items"
+    },
+    {
+      "name": "FineRuby",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fine_ruby",
+      "path": "~/Items"
+    },
+    {
+      "name": "FineSapphire",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fine_sapphire",
+      "path": "~/Items"
+    },
+    {
+      "name": "FineTopaz",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fine_topaz",
+      "path": "~/Items"
+    },
+    {
+      "name": "FineAmethyst",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fine_amethyst",
+      "path": "~/Items"
+    },
+    {
+      "name": "PerfectRuby",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfect_ruby",
+      "path": "~/Items"
+    },
+    {
+      "name": "PerfectSapphire",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfect_sapphire",
+      "path": "~/Items"
+    },
+    {
+      "name": "PerfectTopaz",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfect_topaz",
+      "path": "~/Items"
+    },
+    {
+      "name": "PerfectAmethyst",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfect_amethyst",
+      "path": "~/Items"
+    },
+    {
+      "name": "GemstonesProcedures",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemstones_procedures",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Finerubyrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "finerubyrecipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "Finesapphirerecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "finesapphirerecipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "Finetopazrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "finetopazrecipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "Fineamethystrecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fineamethystrecipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "Perfectsapphirerecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfectsapphirerecipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "Perfectrubyrecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfectrubyrecipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "Perfecttopazrecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfecttopazrecipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "Perfectamethystrecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfectamethystrecipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "DropsProcedure",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drops_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Scylla",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "scylla",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "ScyllaProcedure",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scylla_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HyperionProcedure",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyperion_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "NecronsBlade",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "necrons_blade",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "Valkyrie",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "valkyrie",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "Astraea",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "astraea",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "TerminatorProcedure",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Terminator",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "terminator",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "BoosterCookie",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "booster_cookie",
+      "path": "~/Items"
+    },
+    {
+      "name": "BoosterCookieProcedure",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booster_cookie_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AstraeaProcedure",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astraea_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LASReye",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "las_reye",
+      "path": "~/Items"
+    },
+    {
+      "name": "DiamantesHandle",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "diamantes_handle",
+      "path": "~/Items"
+    },
+    {
+      "name": "BigfootsLasso",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bigfoots_lasso",
+      "path": "~/Items"
+    },
+    {
+      "name": "JollyPinkRock",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jolly_pink_rock",
+      "path": "~/Items"
+    },
+    {
+      "name": "WitherCatalyst",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wither_catalyst",
+      "path": "~/Items"
+    },
+    {
+      "name": "NecronCatalyst",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necron_catalyst",
+      "path": "~/Items"
+    },
+    {
+      "name": "DivansDrill",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divans_drill",
+      "path": "~/Items"
+    },
+    {
+      "name": "FishingTest",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing_test",
+      "path": "~/Items/fishing"
+    },
+    {
+      "name": "FishingProcedure",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/fishing"
+    },
+    {
+      "name": "SoulString",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_string",
+      "path": "~/Items"
+    },
+    {
+      "name": "WitherHealing",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_healing",
+      "path": "~/Items"
+    },
+    {
+      "name": "WitherShield",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_shield",
+      "path": "~/Items"
+    },
+    {
+      "name": "GiantSlam",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_slam",
+      "path": "~/Items"
+    },
+    {
+      "name": "ShadowWarp",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_warp",
+      "path": "~/Items"
+    },
+    {
+      "name": "SpecialMobsSpawn",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "special_mobs_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "NecronBladeRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necron_blade_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "NecronCatalystRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necron_catalyst_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "HyperionRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyperion_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "ScyllaRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scylla_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "AstraeaRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astraea_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "ValkyrieRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valkyrie_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "WitherArmor",
+      "type": "armor",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "DaylightSaver",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daylight_saver",
+      "path": "~/Items"
+    },
+    {
+      "name": "BoosterCookieRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booster_cookie_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "WitherLord",
+      "type": "livingentity",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_lord",
+      "path": "~/MOBS"
+    },
+    {
+      "name": "Divan",
+      "type": "livingentity",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divan",
+      "path": "~/MOBS"
+    },
+    {
+      "name": "JudgementCore",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "judgement_core",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedObsidian",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_obsidian",
+      "path": "~/Items"
+    },
+    {
+      "name": "NullAtom",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "null_atom",
+      "path": "~/Items"
+    },
+    {
+      "name": "DivansAlloy",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divans_alloy",
+      "path": "~/Items"
+    },
+    {
+      "name": "NullEdge",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "null_edge",
+      "path": "~/Items"
+    },
+    {
+      "name": "NullBlade",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "null_blade",
+      "path": "~/Items"
+    },
+    {
+      "name": "TerminatorRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "Skyblock",
+      "type": "command",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyblock"
+    },
+    {
+      "name": "NullEdgeRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "null_edge_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "NullBladeRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "null_blade_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EnchantedQuartz",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_quartz",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedRedstone",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_redstone",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedIron",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_iron",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedQuartzBlock",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_quartz_block",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedRedstoneBlock",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_redstone_block",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedIronBlock",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_iron_block",
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.hypixelsb.divan_spawn_egg": "Divan Spawn Egg",
+      "item.hypixelsb.necrons_blade": "§6Necron\u0027s Blade (Unrefined)",
+      "item.hypixelsb.wither_lord_spawn_egg": "Wither Lord Spawn Egg",
+      "item.hypixelsb.giant_slam": "§5Giant Slam",
+      "item.hypixelsb.null_blade": "§5Null Blade",
+      "item.hypixelsb.gyrokinetic_wand": "§5Aspect of The Void",
+      "item.hypixelsb.flawed_sapphire": "§9Flawed Sapphire",
+      "item.hypixelsb.divans_drill": "Divans Drill",
+      "item.hypixelsb.flawed_topaz": "§9Flawed Topaz",
+      "item.hypixelsb.booster_cookie": "§bBooster Cookie",
+      "item.hypixelsb.las_reye": "§5L.A.S.R.\u0027s Eye",
+      "item.hypixelsb.daylight_saver": "Daylight Saver",
+      "item.hypixelsb.enchanted_redstone": "§9Enchanted Redstone",
+      "item.hypixelsb.fishing_test": "Fishing Test Rod",
+      "block.hypixelsb.enchanted_iron_block": "§5Enchanted Iron Block",
+      "item.hypixelsb.bigfoots_lasso": "§5Bigfoot\u0027s Lasso",
+      "item.hypixelsb.wither_armor_helmet": "§6Wither Helmet",
+      "item.hypixelsb.judgement_core": "§6Judgement Core",
+      "item.hypixelsb.soul_string": "§9Soul String",
+      "item.hypixelsb.necrons_handle": "§5Necron\u0027s Handle",
+      "item.hypixelsb.wither_catalyst": "§9Wither Catalyst",
+      "item.hypixelsb.enchanted_iron": "§9Enchanted Iron",
+      "block.hypixelsb.enchanted_obsidian": "§5Enchanted Obsidian",
+      "item.hypixelsb.perfect_amethyst": "§6Perfect Amethyst",
+      "item.hypixelsb.wither_armor_chestplate": "§6Wither Chestplate",
+      "item.hypixelsb.flawed_amethyst": "§9Flawed Amethyst",
+      "item.hypixelsb.perfect_topaz": "§6Perfect Topaz",
+      "item.hypixelsb.fine_sapphire": "§5Fine Sapphire",
+      "item.hypixelsb.jolly_pink_rock": "§5Jolly Pink Rock",
+      "item.hypixelsb.scylla": "§6Scylla",
+      "item.hypixelsb.flawed_ruby": "§9Flawed Ruby",
+      "item.hypixelsb.astraea": "§6Astraea",
+      "item.hypixelsb.aspect_of_the_void": "§5Aspect of The Void",
+      "item.hypixelsb.fine_topaz": "§5Fine Topaz",
+      "item.hypixelsb.terminator": "§6Terminator",
+      "item.hypixelsb.wither_shield": "§5Wither Shield",
+      "entity.hypixelsb.divan": "Divan",
+      "item.hypixelsb.perfect_ruby": "§6Perfect Ruby",
+      "entity.hypixelsb.wither_lord": "Wither Lord",
+      "item.hypixelsb.null_atom": "§9Null Atom",
+      "item.hypixelsb.diamantes_handle": "§5Diamante\u0027s Handle",
+      "item.hypixelsb.shadow_warp": "§5Shadow Warp",
+      "item.hypixelsb.necron_catalyst": "§5Necron Catalyst",
+      "item.hypixelsb.divans_alloy": "§6Divans Alloy",
+      "item.hypixelsb.null_edge": "§5Null Edge",
+      "item.hypixelsb.fine_amethyst": "§5Fine Amethyst",
+      "item.hypixelsb.perfect_sapphire": "§6Perfect Sapphire",
+      "item.hypixelsb.wither_healing": "§5Wither Healing",
+      "item.hypixelsb.wither_armor_leggings": "§6Wither Leggings",
+      "item.hypixelsb.wither_armor_boots": "§6Wither Boots",
+      "block.hypixelsb.enchanted_quartz_block": "§5Enchanted Quartz Block",
+      "block.hypixelsb.enchanted_redstone_block": "§5Enchanted Redstone Block",
+      "item.hypixelsb.fine_ruby": "§5Fine Ruby",
+      "item.hypixelsb.enchanted_quartz": "§9Enchanted Quartz",
+      "item.hypixelsb.hyperion": "§6Hyperion",
+      "item.hypixelsb.valkyrie": "§6Valkyrie"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "EnchantedItems",
+            "children": []
+          },
+          {
+            "name": "fishing",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "MOBS",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hypixelsb",
+    "modName": "hypixelsb",
+    "version": "1.0.0",
+    "author": "David, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.hypixelsb",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

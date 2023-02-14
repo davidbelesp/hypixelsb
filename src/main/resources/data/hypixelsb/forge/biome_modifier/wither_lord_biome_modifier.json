@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "warped_forest",
+    "basalt_deltas",
+    "crimson_forest",
+    "nether_wastes"
+  ],
+  "spawners": {
+    "type": "hypixelsb:wither_lord",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

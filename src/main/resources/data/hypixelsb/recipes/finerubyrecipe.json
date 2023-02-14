@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:flawed_ruby"
+    },
+    "1": {
+      "item": "hypixelsb:flawed_ruby"
+    },
+    "2": {
+      "item": "hypixelsb:flawed_ruby"
+    },
+    "3": {
+      "item": "hypixelsb:flawed_ruby"
+    },
+    "4": {
+      "item": "hypixelsb:flawed_ruby"
+    },
+    "5": {
+      "item": "hypixelsb:flawed_ruby"
+    },
+    "6": {
+      "item": "hypixelsb:flawed_ruby"
+    },
+    "7": {
+      "item": "hypixelsb:flawed_ruby"
+    },
+    "8": {
+      "item": "hypixelsb:flawed_ruby"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:fine_ruby",
+    "count": 1
+  }
+}

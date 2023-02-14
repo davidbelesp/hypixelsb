@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NullBlade"
+      },
+      {
+        "value": "CUSTOM:SoulString"
+      },
+      {
+        "value": "CUSTOM:EnchantedQuartzBlock"
+      },
+      {
+        "value": "CUSTOM:JudgementCore"
+      },
+      {
+        "value": "CUSTOM:SoulString"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NullBlade"
+      },
+      {
+        "value": "CUSTOM:SoulString"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Terminator"
+    },
+    "name": "terminator_recipe",
+    "namespace": "mod"
+  }
+}

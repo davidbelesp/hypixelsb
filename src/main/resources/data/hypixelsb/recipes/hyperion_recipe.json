@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:las_reye"
+    },
+    "1": {
+      "item": "hypixelsb:shadow_warp"
+    },
+    "2": {
+      "item": "hypixelsb:las_reye"
+    },
+    "3": {
+      "item": "hypixelsb:las_reye"
+    },
+    "4": {
+      "item": "hypixelsb:necrons_blade"
+    },
+    "5": {
+      "item": "hypixelsb:las_reye"
+    },
+    "6": {
+      "item": "hypixelsb:las_reye"
+    },
+    "7": {
+      "item": "hypixelsb:las_reye"
+    },
+    "8": {
+      "item": "hypixelsb:las_reye"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:hyperion",
+    "count": 1
+  }
+}

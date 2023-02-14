@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hypixelsb:blocks/iron_block",
+    "particle": "hypixelsb:blocks/iron_block"
+  },
+  "render_type": "solid"
+}

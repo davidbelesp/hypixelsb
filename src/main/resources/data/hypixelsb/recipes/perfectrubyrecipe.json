@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:fine_ruby"
+    },
+    "1": {
+      "item": "hypixelsb:fine_ruby"
+    },
+    "2": {
+      "item": "hypixelsb:fine_ruby"
+    },
+    "3": {
+      "item": "hypixelsb:fine_ruby"
+    },
+    "4": {
+      "item": "hypixelsb:fine_ruby"
+    },
+    "5": {
+      "item": "hypixelsb:fine_ruby"
+    },
+    "6": {
+      "item": "hypixelsb:fine_ruby"
+    },
+    "7": {
+      "item": "hypixelsb:fine_ruby"
+    },
+    "8": {
+      "item": "hypixelsb:fine_ruby"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:perfect_ruby",
+    "count": 1
+  }
+}
