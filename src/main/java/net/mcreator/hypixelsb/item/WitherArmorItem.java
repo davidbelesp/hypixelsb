@@ -35,12 +35,12 @@ public abstract class WitherArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{7, 11, 13, 9}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 22;
 			}
 
 			@Override
@@ -60,7 +60,7 @@ public abstract class WitherArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 4f;
 			}
 
 			@Override

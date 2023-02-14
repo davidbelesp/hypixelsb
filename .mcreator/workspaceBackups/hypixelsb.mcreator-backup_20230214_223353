@@ -816,7 +816,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "terminator_recipe",
-      "path": "~/Items"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "Skyblock",
@@ -843,6 +843,207 @@
       "locked_code": false,
       "registry_name": "null_blade_recipe",
       "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EnchantedQuartz",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_quartz",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedRedstone",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_redstone",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedIron",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_iron",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedQuartzBlock",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_quartz_block",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedRedstoneBlock",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_redstone_block",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedIronBlock",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_iron_block",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedGold",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_gold",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedGoldBlock",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_gold_block",
+      "path": "~/Items"
+    },
+    {
+      "name": "EnchantedQuartzRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_quartz_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EnchantedIronRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_iron_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EnchantedRedstoneRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_redstone_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EnchantedGoldRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_gold_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EnchantedQuartzBlockRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_quartz_block_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EnchantedIronBlockRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_iron_block_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EnchantedGoldBlockRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_gold_block_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EnchantedRedstoneBlockRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_redstone_block_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EtherwarpMerger",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherwarp_merger",
+      "path": "~/Items"
+    },
+    {
+      "name": "AOTVRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aotv_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "DaylightSaverRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daylight_saver_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "Cooldown",
+      "type": "potioneffect",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown",
+      "path": "~/potion"
+    },
+    {
+      "name": "DaylightSaverProcedure",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daylight_saver_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -855,20 +1056,26 @@
       "item.hypixelsb.giant_slam": "§5Giant Slam",
       "item.hypixelsb.null_blade": "§5Null Blade",
       "item.hypixelsb.gyrokinetic_wand": "§5Aspect of The Void",
+      "item.hypixelsb.etherwarp_merger": "§5Etherwarp Merger",
       "item.hypixelsb.flawed_sapphire": "§9Flawed Sapphire",
       "item.hypixelsb.divans_drill": "Divans Drill",
       "item.hypixelsb.flawed_topaz": "§9Flawed Topaz",
       "item.hypixelsb.booster_cookie": "§bBooster Cookie",
       "item.hypixelsb.las_reye": "§5L.A.S.R.\u0027s Eye",
       "item.hypixelsb.daylight_saver": "Daylight Saver",
+      "item.hypixelsb.enchanted_redstone": "§9Enchanted Redstone",
       "item.hypixelsb.fishing_test": "Fishing Test Rod",
+      "block.hypixelsb.enchanted_iron_block": "§9Enchanted Iron Block",
       "item.hypixelsb.bigfoots_lasso": "§5Bigfoot\u0027s Lasso",
       "item.hypixelsb.wither_armor_helmet": "§6Wither Helmet",
       "item.hypixelsb.judgement_core": "§6Judgement Core",
       "item.hypixelsb.soul_string": "§9Soul String",
       "item.hypixelsb.necrons_handle": "§5Necron\u0027s Handle",
       "item.hypixelsb.wither_catalyst": "§9Wither Catalyst",
-      "block.hypixelsb.enchanted_obsidian": "§5Enchanted Obsidian",
+      "effect.hypixelsb.cooldown": "On Cooldown",
+      "item.hypixelsb.enchanted_iron": "§9Enchanted Iron",
+      "block.hypixelsb.enchanted_obsidian": "§9Enchanted Obsidian",
+      "block.hypixelsb.enchanted_gold_block": "§9Enchanted Gold Block",
       "item.hypixelsb.perfect_amethyst": "§6Perfect Amethyst",
       "item.hypixelsb.wither_armor_chestplate": "§6Wither Chestplate",
       "item.hypixelsb.flawed_amethyst": "§9Flawed Amethyst",
@@ -877,6 +1084,7 @@
       "item.hypixelsb.jolly_pink_rock": "§5Jolly Pink Rock",
       "item.hypixelsb.scylla": "§6Scylla",
       "item.hypixelsb.flawed_ruby": "§9Flawed Ruby",
+      "item.hypixelsb.enchanted_gold": "§9Enchanted Gold",
       "item.hypixelsb.astraea": "§6Astraea",
       "item.hypixelsb.aspect_of_the_void": "§5Aspect of The Void",
       "item.hypixelsb.fine_topaz": "§5Fine Topaz",
@@ -896,7 +1104,10 @@
       "item.hypixelsb.wither_healing": "§5Wither Healing",
       "item.hypixelsb.wither_armor_leggings": "§6Wither Leggings",
       "item.hypixelsb.wither_armor_boots": "§6Wither Boots",
+      "block.hypixelsb.enchanted_quartz_block": "§9Enchanted Quartz Block",
+      "block.hypixelsb.enchanted_redstone_block": "§9Enchanted Redstone Block",
       "item.hypixelsb.fine_ruby": "§5Fine Ruby",
+      "item.hypixelsb.enchanted_quartz": "§9Enchanted Quartz",
       "item.hypixelsb.hyperion": "§6Hyperion",
       "item.hypixelsb.valkyrie": "§6Valkyrie"
     }
@@ -935,6 +1146,10 @@
       },
       {
         "name": "MOBS",
+        "children": []
+      },
+      {
+        "name": "potion",
         "children": []
       }
     ]
