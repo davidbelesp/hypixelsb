@@ -987,6 +987,63 @@
       "locked_code": false,
       "registry_name": "enchanted_redstone_block_recipe",
       "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EtherwarpMerger",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherwarp_merger",
+      "path": "~/Items"
+    },
+    {
+      "name": "AOTVRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aotv_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "DaylightSaverRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daylight_saver_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "Cooldown",
+      "type": "potioneffect",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown",
+      "path": "~/potion"
+    },
+    {
+      "name": "DaylightSaverProcedure",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daylight_saver_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -999,24 +1056,26 @@
       "item.hypixelsb.giant_slam": "§5Giant Slam",
       "item.hypixelsb.null_blade": "§5Null Blade",
       "item.hypixelsb.gyrokinetic_wand": "§5Aspect of The Void",
+      "item.hypixelsb.etherwarp_merger": "§5Etherwarp Merger",
       "item.hypixelsb.flawed_sapphire": "§9Flawed Sapphire",
-      "item.hypixelsb.divans_drill": "Divans Drill",
+      "item.hypixelsb.divans_drill": "§bDivans Drill",
       "item.hypixelsb.flawed_topaz": "§9Flawed Topaz",
       "item.hypixelsb.booster_cookie": "§bBooster Cookie",
       "item.hypixelsb.las_reye": "§5L.A.S.R.\u0027s Eye",
       "item.hypixelsb.daylight_saver": "Daylight Saver",
       "item.hypixelsb.enchanted_redstone": "§9Enchanted Redstone",
       "item.hypixelsb.fishing_test": "Fishing Test Rod",
-      "block.hypixelsb.enchanted_iron_block": "§5Enchanted Iron Block",
+      "block.hypixelsb.enchanted_iron_block": "§9Enchanted Iron Block",
       "item.hypixelsb.bigfoots_lasso": "§5Bigfoot\u0027s Lasso",
       "item.hypixelsb.wither_armor_helmet": "§6Wither Helmet",
       "item.hypixelsb.judgement_core": "§6Judgement Core",
       "item.hypixelsb.soul_string": "§9Soul String",
       "item.hypixelsb.necrons_handle": "§5Necron\u0027s Handle",
       "item.hypixelsb.wither_catalyst": "§9Wither Catalyst",
+      "effect.hypixelsb.cooldown": "On Cooldown",
       "item.hypixelsb.enchanted_iron": "§9Enchanted Iron",
-      "block.hypixelsb.enchanted_obsidian": "§5Enchanted Obsidian",
-      "block.hypixelsb.enchanted_gold_block": "§5Enchanted Gold Block",
+      "block.hypixelsb.enchanted_obsidian": "§9Enchanted Obsidian",
+      "block.hypixelsb.enchanted_gold_block": "§9Enchanted Gold Block",
       "item.hypixelsb.perfect_amethyst": "§6Perfect Amethyst",
       "item.hypixelsb.wither_armor_chestplate": "§6Wither Chestplate",
       "item.hypixelsb.flawed_amethyst": "§9Flawed Amethyst",
@@ -1045,8 +1104,8 @@
       "item.hypixelsb.wither_healing": "§5Wither Healing",
       "item.hypixelsb.wither_armor_leggings": "§6Wither Leggings",
       "item.hypixelsb.wither_armor_boots": "§6Wither Boots",
-      "block.hypixelsb.enchanted_quartz_block": "§5Enchanted Quartz Block",
-      "block.hypixelsb.enchanted_redstone_block": "§5Enchanted Redstone Block",
+      "block.hypixelsb.enchanted_quartz_block": "§9Enchanted Quartz Block",
+      "block.hypixelsb.enchanted_redstone_block": "§9Enchanted Redstone Block",
       "item.hypixelsb.fine_ruby": "§5Fine Ruby",
       "item.hypixelsb.enchanted_quartz": "§9Enchanted Quartz",
       "item.hypixelsb.hyperion": "§6Hyperion",
@@ -1087,6 +1146,10 @@
       },
       {
         "name": "MOBS",
+        "children": []
+      },
+      {
+        "name": "potion",
         "children": []
       }
     ]

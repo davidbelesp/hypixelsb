@@ -20,6 +20,7 @@ import net.mcreator.hypixelsb.item.WitherCatalystItem;
 import net.mcreator.hypixelsb.item.WitherArmorItem;
 import net.mcreator.hypixelsb.item.ValkyrieItem;
 import net.mcreator.hypixelsb.item.TerminatorItem;
+import net.mcreator.hypixelsb.item.StormArmorItem;
 import net.mcreator.hypixelsb.item.SoulStringItem;
 import net.mcreator.hypixelsb.item.ShadowWarpItem;
 import net.mcreator.hypixelsb.item.ScyllaItem;
@@ -33,11 +34,14 @@ import net.mcreator.hypixelsb.item.NullAtomItem;
 import net.mcreator.hypixelsb.item.NecronsHandleItem;
 import net.mcreator.hypixelsb.item.NecronsBladeItem;
 import net.mcreator.hypixelsb.item.NecronCatalystItem;
+import net.mcreator.hypixelsb.item.NecronArmorItem;
+import net.mcreator.hypixelsb.item.MaxorArmorItem;
 import net.mcreator.hypixelsb.item.LASReyeItem;
 import net.mcreator.hypixelsb.item.JudgementCoreItem;
 import net.mcreator.hypixelsb.item.JollyPinkRockItem;
 import net.mcreator.hypixelsb.item.HyperionItem;
 import net.mcreator.hypixelsb.item.GyrokineticWandItem;
+import net.mcreator.hypixelsb.item.GoldorArmorItem;
 import net.mcreator.hypixelsb.item.GiantSlamItem;
 import net.mcreator.hypixelsb.item.FlawedTopazItem;
 import net.mcreator.hypixelsb.item.FlawedSapphireItem;
@@ -129,6 +133,26 @@ public class HypixelsbModItems {
 	public static final RegistryObject<Item> ENCHANTED_GOLD_BLOCK = block(HypixelsbModBlocks.ENCHANTED_GOLD_BLOCK,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> ETHERWARP_MERGER = REGISTRY.register("etherwarp_merger", () -> new EtherwarpMergerItem());
+	public static final RegistryObject<Item> STORM_ARMOR_HELMET = REGISTRY.register("storm_armor_helmet", () -> new StormArmorItem.Helmet());
+	public static final RegistryObject<Item> STORM_ARMOR_CHESTPLATE = REGISTRY.register("storm_armor_chestplate",
+			() -> new StormArmorItem.Chestplate());
+	public static final RegistryObject<Item> STORM_ARMOR_LEGGINGS = REGISTRY.register("storm_armor_leggings", () -> new StormArmorItem.Leggings());
+	public static final RegistryObject<Item> STORM_ARMOR_BOOTS = REGISTRY.register("storm_armor_boots", () -> new StormArmorItem.Boots());
+	public static final RegistryObject<Item> NECRON_ARMOR_HELMET = REGISTRY.register("necron_armor_helmet", () -> new NecronArmorItem.Helmet());
+	public static final RegistryObject<Item> NECRON_ARMOR_CHESTPLATE = REGISTRY.register("necron_armor_chestplate",
+			() -> new NecronArmorItem.Chestplate());
+	public static final RegistryObject<Item> NECRON_ARMOR_LEGGINGS = REGISTRY.register("necron_armor_leggings", () -> new NecronArmorItem.Leggings());
+	public static final RegistryObject<Item> NECRON_ARMOR_BOOTS = REGISTRY.register("necron_armor_boots", () -> new NecronArmorItem.Boots());
+	public static final RegistryObject<Item> MAXOR_ARMOR_HELMET = REGISTRY.register("maxor_armor_helmet", () -> new MaxorArmorItem.Helmet());
+	public static final RegistryObject<Item> MAXOR_ARMOR_CHESTPLATE = REGISTRY.register("maxor_armor_chestplate",
+			() -> new MaxorArmorItem.Chestplate());
+	public static final RegistryObject<Item> MAXOR_ARMOR_LEGGINGS = REGISTRY.register("maxor_armor_leggings", () -> new MaxorArmorItem.Leggings());
+	public static final RegistryObject<Item> MAXOR_ARMOR_BOOTS = REGISTRY.register("maxor_armor_boots", () -> new MaxorArmorItem.Boots());
+	public static final RegistryObject<Item> GOLDOR_ARMOR_HELMET = REGISTRY.register("goldor_armor_helmet", () -> new GoldorArmorItem.Helmet());
+	public static final RegistryObject<Item> GOLDOR_ARMOR_CHESTPLATE = REGISTRY.register("goldor_armor_chestplate",
+			() -> new GoldorArmorItem.Chestplate());
+	public static final RegistryObject<Item> GOLDOR_ARMOR_LEGGINGS = REGISTRY.register("goldor_armor_leggings", () -> new GoldorArmorItem.Leggings());
+	public static final RegistryObject<Item> GOLDOR_ARMOR_BOOTS = REGISTRY.register("goldor_armor_boots", () -> new GoldorArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
