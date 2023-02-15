@@ -5,9 +5,9 @@
     "renderType": 0,
     "texture": "gyrokinetic",
     "customModelName": "Normal",
-    "name": "§5Aspect of The Void",
+    "name": "§5Gyrokinetic Wand",
     "specialInfo": [
-      "gyro"
+      "§5§lEPIC"
     ],
     "creativeTab": {
       "value": "COMBAT"

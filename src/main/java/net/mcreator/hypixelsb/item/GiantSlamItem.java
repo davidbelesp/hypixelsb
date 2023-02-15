@@ -13,12 +13,13 @@ import java.util.List;
 
 public class GiantSlamItem extends Item {
 	public GiantSlamItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.RARE));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal(""));
 		list.add(Component.literal("\u00A75\u00A7lEPIC"));
 	}
 }

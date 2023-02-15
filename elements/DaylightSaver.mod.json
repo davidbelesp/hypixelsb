@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "blockzapper",
     "customModelName": "Normal",
-    "name": "Daylight Saver",
+    "name": "§5Daylight Saver",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "TOOLS"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "asd"
+      "§5§lEPIC"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

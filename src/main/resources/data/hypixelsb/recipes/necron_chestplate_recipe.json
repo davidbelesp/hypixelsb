@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:diamantes_handle"
+    },
+    "1": {
+      "item": "hypixelsb:diamantes_handle"
+    },
+    "2": {
+      "item": "hypixelsb:diamantes_handle"
+    },
+    "3": {
+      "item": "hypixelsb:diamantes_handle"
+    },
+    "4": {
+      "item": "hypixelsb:wither_armor_chestplate"
+    },
+    "5": {
+      "item": "hypixelsb:diamantes_handle"
+    },
+    "6": {
+      "item": "hypixelsb:diamantes_handle"
+    },
+    "7": {
+      "item": "hypixelsb:diamantes_handle"
+    },
+    "8": {
+      "item": "hypixelsb:diamantes_handle"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:necron_armor_chestplate",
+    "count": 1
+  }
+}

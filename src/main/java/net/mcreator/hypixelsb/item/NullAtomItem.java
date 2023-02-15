@@ -13,12 +13,13 @@ import java.util.List;
 
 public class NullAtomItem extends Item {
 	public NullAtomItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal(""));
 		list.add(Component.literal("\u00A79\u00A7lRARE"));
 	}
 }

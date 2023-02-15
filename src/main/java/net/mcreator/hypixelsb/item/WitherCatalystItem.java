@@ -13,7 +13,7 @@ import java.util.List;
 
 public class WitherCatalystItem extends Item {
 	public WitherCatalystItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.RARE));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64));
 	}
 
 	@Override

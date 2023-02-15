@@ -18,13 +18,17 @@ import java.util.List;
 
 public class DaylightSaverItem extends Item {
 	public DaylightSaverItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("asd"));
+		list.add(Component.literal(""));
+		list.add(Component.literal("§6Ability: Save light §r§e§lRIGHT CLICK"));
+		list.add(Component.literal("§7Advances time by §r§a12 §r§7hours."));
+		list.add(Component.literal(""));
+		list.add(Component.literal("§5§lEPIC WAND"));
 	}
 
 	@Override

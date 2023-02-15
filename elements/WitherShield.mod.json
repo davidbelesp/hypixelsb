@@ -6,7 +6,7 @@
     "texture": "wither_shield_scroll",
     "customModelName": "Normal",
     "name": "§5Wither Shield",
-    "rarity": "RARE",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
     },

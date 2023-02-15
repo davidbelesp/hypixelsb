@@ -13,7 +13,7 @@ import java.util.List;
 
 public class DiamantesHandleItem extends Item {
 	public DiamantesHandleItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(1).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(1));
 	}
 
 	@Override

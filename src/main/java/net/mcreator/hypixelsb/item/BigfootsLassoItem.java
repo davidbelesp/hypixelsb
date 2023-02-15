@@ -13,7 +13,7 @@ import java.util.List;
 
 public class BigfootsLassoItem extends Item {
 	public BigfootsLassoItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(64).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(64));
 	}
 
 	@Override

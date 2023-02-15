@@ -5,9 +5,9 @@
     "renderType": 0,
     "texture": "divansdrill",
     "customModelName": "Normal",
-    "name": "§bDivans Drill",
+    "name": "§bDivan's Drill",
     "specialInfo": [
-      "asd"
+      "§b§lDIVINE DRILL"
     ],
     "creativeTab": {
       "value": "TOOLS"

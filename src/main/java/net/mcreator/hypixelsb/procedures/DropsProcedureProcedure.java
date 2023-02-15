@@ -206,28 +206,28 @@ public class DropsProcedureProcedure {
 		}
 		if (entity instanceof WitherLordEntity) {
 			randomNumber = Math.random();
-			if (randomNumber < 0.1) {
+			if (randomNumber < 0.025) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.WITHER_ARMOR_HELMET.get()));
 					entityToSpawn.setPickUpDelay(10);
 					_level.addFreshEntity(entityToSpawn);
 				}
 			}
-			if (randomNumber >= 0.1 && randomNumber < 0.2) {
+			if (randomNumber >= 0.025 && randomNumber < 0.05) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.WITHER_ARMOR_CHESTPLATE.get()));
 					entityToSpawn.setPickUpDelay(10);
 					_level.addFreshEntity(entityToSpawn);
 				}
 			}
-			if (randomNumber >= 0.2 && randomNumber < 0.3) {
+			if (randomNumber >= 0.05 && randomNumber < 0.075) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.WITHER_ARMOR_LEGGINGS.get()));
 					entityToSpawn.setPickUpDelay(10);
 					_level.addFreshEntity(entityToSpawn);
 				}
 			}
-			if (randomNumber >= 0.3 && randomNumber < 0.4) {
+			if (randomNumber >= 0.075 && randomNumber < 0.1) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.WITHER_ARMOR_BOOTS.get()));
 					entityToSpawn.setPickUpDelay(10);
