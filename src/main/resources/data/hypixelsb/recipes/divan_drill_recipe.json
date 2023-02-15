@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "hypixelsb:gemstone_mixture"
+    },
+    "3": {
+      "item": "hypixelsb:gemstone_mixture"
+    },
+    "4": {
+      "item": "hypixelsb:fuel_tank"
+    },
+    "5": {
+      "item": "hypixelsb:gemstone_mixture"
+    },
+    "6": {
+      "item": "hypixelsb:drill_engine"
+    },
+    "7": {
+      "item": "hypixelsb:divans_alloy"
+    },
+    "8": {
+      "item": "hypixelsb:drill_engine"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:divans_drill",
+    "count": 1
+  }
+}

@@ -43,6 +43,8 @@ import net.mcreator.hypixelsb.item.HyperionItem;
 import net.mcreator.hypixelsb.item.GyrokineticWandItem;
 import net.mcreator.hypixelsb.item.GoldorArmorItem;
 import net.mcreator.hypixelsb.item.GiantSlamItem;
+import net.mcreator.hypixelsb.item.GemstoneMixtureItem;
+import net.mcreator.hypixelsb.item.FuelTankItem;
 import net.mcreator.hypixelsb.item.FlawedTopazItem;
 import net.mcreator.hypixelsb.item.FlawedSapphireItem;
 import net.mcreator.hypixelsb.item.FlawedRubyItem;
@@ -52,13 +54,17 @@ import net.mcreator.hypixelsb.item.FineTopazItem;
 import net.mcreator.hypixelsb.item.FineSapphireItem;
 import net.mcreator.hypixelsb.item.FineRubyItem;
 import net.mcreator.hypixelsb.item.FineAmethystItem;
+import net.mcreator.hypixelsb.item.FinalDestinationArmorItem;
 import net.mcreator.hypixelsb.item.EtherwarpMergerItem;
 import net.mcreator.hypixelsb.item.EnchantedRedstoneItem;
 import net.mcreator.hypixelsb.item.EnchantedQuartzItem;
 import net.mcreator.hypixelsb.item.EnchantedIronItem;
 import net.mcreator.hypixelsb.item.EnchantedGoldItem;
+import net.mcreator.hypixelsb.item.DrillEngineItem;
 import net.mcreator.hypixelsb.item.DivansDrillItem;
 import net.mcreator.hypixelsb.item.DivansAlloyItem;
+import net.mcreator.hypixelsb.item.DivanFragmentItem;
+import net.mcreator.hypixelsb.item.DivanArmorItem;
 import net.mcreator.hypixelsb.item.DiamantesHandleItem;
 import net.mcreator.hypixelsb.item.DaylightSaverItem;
 import net.mcreator.hypixelsb.item.BoosterCookieItem;
@@ -153,6 +159,21 @@ public class HypixelsbModItems {
 			() -> new GoldorArmorItem.Chestplate());
 	public static final RegistryObject<Item> GOLDOR_ARMOR_LEGGINGS = REGISTRY.register("goldor_armor_leggings", () -> new GoldorArmorItem.Leggings());
 	public static final RegistryObject<Item> GOLDOR_ARMOR_BOOTS = REGISTRY.register("goldor_armor_boots", () -> new GoldorArmorItem.Boots());
+	public static final RegistryObject<Item> DIVAN_FRAGMENT = REGISTRY.register("divan_fragment", () -> new DivanFragmentItem());
+	public static final RegistryObject<Item> DIVAN_ARMOR_HELMET = REGISTRY.register("divan_armor_helmet", () -> new DivanArmorItem.Helmet());
+	public static final RegistryObject<Item> DIVAN_ARMOR_CHESTPLATE = REGISTRY.register("divan_armor_chestplate",
+			() -> new DivanArmorItem.Chestplate());
+	public static final RegistryObject<Item> DIVAN_ARMOR_LEGGINGS = REGISTRY.register("divan_armor_leggings", () -> new DivanArmorItem.Leggings());
+	public static final RegistryObject<Item> DIVAN_ARMOR_BOOTS = REGISTRY.register("divan_armor_boots", () -> new DivanArmorItem.Boots());
+	public static final RegistryObject<Item> DRILL_ENGINE = REGISTRY.register("drill_engine", () -> new DrillEngineItem());
+	public static final RegistryObject<Item> FUEL_TANK = REGISTRY.register("fuel_tank", () -> new FuelTankItem());
+	public static final RegistryObject<Item> GEMSTONE_MIXTURE = REGISTRY.register("gemstone_mixture", () -> new GemstoneMixtureItem());
+	public static final RegistryObject<Item> FINAL_DESTINATION_ARMOR_CHESTPLATE = REGISTRY.register("final_destination_armor_chestplate",
+			() -> new FinalDestinationArmorItem.Chestplate());
+	public static final RegistryObject<Item> FINAL_DESTINATION_ARMOR_LEGGINGS = REGISTRY.register("final_destination_armor_leggings",
+			() -> new FinalDestinationArmorItem.Leggings());
+	public static final RegistryObject<Item> FINAL_DESTINATION_ARMOR_BOOTS = REGISTRY.register("final_destination_armor_boots",
+			() -> new FinalDestinationArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

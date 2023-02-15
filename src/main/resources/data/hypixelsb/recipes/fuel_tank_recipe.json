@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:enchanted_iron_block"
+    },
+    "1": {
+      "item": "hypixelsb:enchanted_redstone_block"
+    },
+    "2": {
+      "item": "hypixelsb:enchanted_iron_block"
+    },
+    "3": {
+      "item": "hypixelsb:enchanted_gold_block"
+    },
+    "5": {
+      "item": "hypixelsb:enchanted_gold_block"
+    },
+    "6": {
+      "item": "hypixelsb:enchanted_iron_block"
+    },
+    "7": {
+      "item": "hypixelsb:enchanted_redstone_block"
+    },
+    "8": {
+      "item": "hypixelsb:enchanted_iron_block"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:fuel_tank",
+    "count": 1
+  }
+}

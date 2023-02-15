@@ -1265,6 +1265,15 @@
       "locked_code": false,
       "registry_name": "goldor_boots_recipe",
       "path": "~/Items/Recipes/WitherArmorRecipes"
+    },
+    {
+      "name": "DivanFragment",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "divan_fragment",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -1313,6 +1322,7 @@
       "item.hypixelsb.jolly_pink_rock": "§5Jolly Pink Rock",
       "item.hypixelsb.scylla": "§6Scylla",
       "item.hypixelsb.storm_armor_leggings": "§6Storm\u0027s Leggings",
+      "item.hypixelsb.divan_fragment": "§5Divan Fragment",
       "item.hypixelsb.flawed_ruby": "§9Flawed Ruby",
       "item.hypixelsb.enchanted_gold": "§9Enchanted Gold",
       "item.hypixelsb.astraea": "§6Astraea",

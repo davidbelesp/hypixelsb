@@ -8,12 +8,17 @@ import net.minecraftforge.event.level.BlockEvent;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
+
+import net.mcreator.hypixelsb.init.HypixelsbModItems;
 
 import javax.annotation.Nullable;
 
@@ -59,6 +64,15 @@ public class GemstonesProceduresProcedure {
 						_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "/summon hypixelsb:divan");
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(Component.literal("\u00A74 You found a Divan's tomb!"), (true));
+		}
+		if (Math.random() < 0.00001) {
+			if (world instanceof Level _level && !_level.isClientSide()) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.DIVAN_FRAGMENT.get()));
+				entityToSpawn.setPickUpDelay(10);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (entity instanceof Player _player && !_player.level.isClientSide())
+				_player.displayClientMessage(Component.literal("\u00A7c You found a Divan's fragment!"), (true));
 		}
 	}
 }

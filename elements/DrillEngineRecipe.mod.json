@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnchantedIronBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnchantedRedstoneBlock"
+      },
+      {
+        "value": "CUSTOM:DivanFragment"
+      },
+      {
+        "value": "CUSTOM:EnchantedGoldBlock"
+      },
+      {
+        "value": "CUSTOM:EnchantedIronBlock"
+      },
+      {
+        "value": "CUSTOM:EnchantedIronBlock"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DrillEngine"
+    },
+    "name": "drill_engine_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:null_blade"
+    },
+    "1": {
+      "item": "hypixelsb:enchanted_quartz_block"
+    },
+    "2": {
+      "item": "hypixelsb:null_blade"
+    },
+    "3": {
+      "item": "hypixelsb:enchanted_quartz_block"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "hypixelsb:enchanted_quartz_block"
+    },
+    "6": {
+      "item": "hypixelsb:null_blade"
+    },
+    "7": {
+      "item": "hypixelsb:enchanted_quartz_block"
+    },
+    "8": {
+      "item": "hypixelsb:null_blade"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:etherwarp_merger",
+    "count": 1
+  }
+}

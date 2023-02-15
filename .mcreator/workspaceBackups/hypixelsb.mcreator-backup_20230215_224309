@@ -760,7 +760,7 @@
       "type": "item",
       "sortid": 68,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "judgement_core",
       "path": "~/Items"
     },
@@ -787,7 +787,7 @@
       "type": "item",
       "sortid": 71,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "divans_alloy",
       "path": "~/Items"
     },
@@ -1265,24 +1265,33 @@
       "locked_code": false,
       "registry_name": "goldor_boots_recipe",
       "path": "~/Items/Recipes/WitherArmorRecipes"
+    },
+    {
+      "name": "DivanFragment",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "divan_fragment",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.hypixelsb.goldor_armor_leggings": "§6Goldor Leggings",
       "item.hypixelsb.divan_spawn_egg": "Divan Spawn Egg",
+      "item.hypixelsb.goldor_armor_leggings": "§6Goldor Leggings",
       "item.hypixelsb.maxor_armor_chestplate": "§6Maxor Chestplate",
       "item.hypixelsb.necrons_blade": "§6Necron\u0027s Blade (Unrefined)",
       "item.hypixelsb.wither_lord_spawn_egg": "Wither Lord Spawn Egg",
       "item.hypixelsb.giant_slam": "§5Giant Slam",
       "item.hypixelsb.null_blade": "§5Null Blade",
-      "item.hypixelsb.gyrokinetic_wand": "§5Aspect of The Void",
+      "item.hypixelsb.gyrokinetic_wand": "§5Gyrokinetic Wand",
       "item.hypixelsb.etherwarp_merger": "§5Etherwarp Merger",
       "item.hypixelsb.necron_armor_boots": "§6Necron Boots",
       "item.hypixelsb.flawed_sapphire": "§9Flawed Sapphire",
-      "item.hypixelsb.divans_drill": "§b§lDivan\u0027s Drill",
+      "item.hypixelsb.divans_drill": "§bDivan\u0027s Drill",
       "item.hypixelsb.flawed_topaz": "§9Flawed Topaz",
       "item.hypixelsb.booster_cookie": "§bBooster Cookie",
       "item.hypixelsb.las_reye": "§5L.A.S.R.\u0027s Eye",
@@ -1313,6 +1322,7 @@
       "item.hypixelsb.jolly_pink_rock": "§5Jolly Pink Rock",
       "item.hypixelsb.scylla": "§6Scylla",
       "item.hypixelsb.storm_armor_leggings": "§6Storm\u0027s Leggings",
+      "item.hypixelsb.divan_fragment": "§5Divan Fragment",
       "item.hypixelsb.flawed_ruby": "§9Flawed Ruby",
       "item.hypixelsb.enchanted_gold": "§9Enchanted Gold",
       "item.hypixelsb.astraea": "§6Astraea",

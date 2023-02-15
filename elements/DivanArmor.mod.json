@@ -1,0 +1,61 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "divan_helmet",
+    "enableBody": true,
+    "textureBody": "divan_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "divan_leggings",
+    "enableBoots": true,
+    "textureBoots": "divan_boots",
+    "onBodyTick": {
+      "name": "DivanArmorProcedure"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "divan_",
+    "helmetName": "§6Divan's Helmet",
+    "bodyName": "§6Divan's Chesplate",
+    "leggingsName": "§6Divan's Leggings",
+    "bootsName": "§6Divan's Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 22,
+    "toughness": 0.0,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

@@ -542,7 +542,7 @@
       "type": "tool",
       "sortid": 47,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "divans_drill",
       "path": "~/Items"
     },
@@ -1265,20 +1265,149 @@
       "locked_code": false,
       "registry_name": "goldor_boots_recipe",
       "path": "~/Items/Recipes/WitherArmorRecipes"
+    },
+    {
+      "name": "DivanFragment",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "divan_fragment",
+      "path": "~/Items"
+    },
+    {
+      "name": "DivanArmor",
+      "type": "armor",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divan_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "DivanArmorProcedure",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divan_armor_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DrillEngine",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_engine",
+      "path": "~/Items"
+    },
+    {
+      "name": "FuelTank",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_tank",
+      "path": "~/Items"
+    },
+    {
+      "name": "GemstoneMixture",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemstone_mixture",
+      "path": "~/Items"
+    },
+    {
+      "name": "GemstoneMixtureRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemstone_mixture_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "FuelTankRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_tank_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EtherwarpMergerRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherwarp_merger_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "DrillEngineRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_engine_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "FinalDestinationArmor",
+      "type": "armor",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_destination_armor",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "DivanDrillRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divan_drill_recipe",
+      "path": "~/Items/Recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.hypixelsb.goldor_armor_leggings": "§6Goldor Leggings",
       "item.hypixelsb.divan_spawn_egg": "Divan Spawn Egg",
+      "item.hypixelsb.goldor_armor_leggings": "§6Goldor Leggings",
       "item.hypixelsb.maxor_armor_chestplate": "§6Maxor Chestplate",
       "item.hypixelsb.necrons_blade": "§6Necron\u0027s Blade (Unrefined)",
       "item.hypixelsb.wither_lord_spawn_egg": "Wither Lord Spawn Egg",
       "item.hypixelsb.giant_slam": "§5Giant Slam",
       "item.hypixelsb.null_blade": "§5Null Blade",
       "item.hypixelsb.gyrokinetic_wand": "§5Gyrokinetic Wand",
+      "item.hypixelsb.final_destination_armor_helmet": "Final Destination Helmet",
       "item.hypixelsb.etherwarp_merger": "§5Etherwarp Merger",
       "item.hypixelsb.necron_armor_boots": "§6Necron Boots",
       "item.hypixelsb.flawed_sapphire": "§9Flawed Sapphire",
@@ -1293,6 +1422,7 @@
       "item.hypixelsb.bigfoots_lasso": "§5Bigfoot\u0027s Lasso",
       "item.hypixelsb.wither_armor_helmet": "§6Wither Helmet",
       "item.hypixelsb.judgement_core": "§6Judgement Core",
+      "item.hypixelsb.final_destination_armor_boots": "§6Final Destination Boots",
       "item.hypixelsb.soul_string": "§9Soul String",
       "item.hypixelsb.necrons_handle": "§5Necron\u0027s Handle",
       "item.hypixelsb.maxor_armor_leggings": "§6Maxor Leggings",
@@ -1303,21 +1433,27 @@
       "item.hypixelsb.storm_armor_boots": "§6Storm\u0027s Boots",
       "item.hypixelsb.goldor_armor_helmet": "§6Goldor Helmet",
       "item.hypixelsb.storm_armor_helmet": "§6Storm\u0027s Helmet",
+      "item.hypixelsb.drill_engine": "§5Drill Engine",
       "block.hypixelsb.enchanted_obsidian": "§9Enchanted Obsidian",
       "block.hypixelsb.enchanted_gold_block": "§9Enchanted Gold Block",
+      "item.hypixelsb.divan_armor_helmet": "§6Divan\u0027s Helmet",
+      "item.hypixelsb.final_destination_armor_leggings": "§6Final Destination Leggings",
       "item.hypixelsb.perfect_amethyst": "§6Perfect Amethyst",
       "item.hypixelsb.wither_armor_chestplate": "§6Wither Chestplate",
       "item.hypixelsb.flawed_amethyst": "§9Flawed Amethyst",
+      "item.hypixelsb.divan_armor_chestplate": "§6Divan\u0027s Chesplate",
       "item.hypixelsb.perfect_topaz": "§6Perfect Topaz",
       "item.hypixelsb.fine_sapphire": "§5Fine Sapphire",
       "item.hypixelsb.jolly_pink_rock": "§5Jolly Pink Rock",
       "item.hypixelsb.scylla": "§6Scylla",
       "item.hypixelsb.storm_armor_leggings": "§6Storm\u0027s Leggings",
+      "item.hypixelsb.divan_fragment": "§5Divan Fragment",
       "item.hypixelsb.flawed_ruby": "§9Flawed Ruby",
       "item.hypixelsb.enchanted_gold": "§9Enchanted Gold",
       "item.hypixelsb.astraea": "§6Astraea",
       "item.hypixelsb.goldor_armor_chestplate": "§6Goldor Chestplate",
       "item.hypixelsb.aspect_of_the_void": "§5Aspect of The Void",
+      "item.hypixelsb.gemstone_mixture": "§6Gemstone Mixture",
       "item.hypixelsb.fine_topaz": "§5Fine Topaz",
       "item.hypixelsb.terminator": "§6Terminator",
       "item.hypixelsb.necron_armor_chestplate": "§6Necron Chestplate",
@@ -1327,11 +1463,14 @@
       "entity.hypixelsb.wither_lord": "Wither Lord",
       "item.hypixelsb.null_atom": "§9Null Atom",
       "item.hypixelsb.goldor_armor_boots": "§6Goldor Boots",
+      "item.hypixelsb.divan_armor_boots": "§6Divan\u0027s Boots",
+      "item.hypixelsb.final_destination_armor_chestplate": "§6Final Destination Chestplate",
       "item.hypixelsb.diamantes_handle": "§5Diamante\u0027s Handle",
       "item.hypixelsb.shadow_warp": "§5Shadow Warp",
       "item.hypixelsb.necron_catalyst": "§5Necron Catalyst",
       "item.hypixelsb.divans_alloy": "§6Divans Alloy",
       "item.hypixelsb.null_edge": "§5Null Edge",
+      "item.hypixelsb.divan_armor_leggings": "§6Divan\u0027s Leggings",
       "item.hypixelsb.fine_amethyst": "§5Fine Amethyst",
       "item.hypixelsb.perfect_sapphire": "§6Perfect Sapphire",
       "item.hypixelsb.wither_healing": "§5Wither Healing",
@@ -1346,6 +1485,7 @@
       "item.hypixelsb.maxor_armor_boots": "§6Maxor Boots",
       "item.hypixelsb.enchanted_quartz": "§9Enchanted Quartz",
       "item.hypixelsb.hyperion": "§6Hyperion",
+      "item.hypixelsb.fuel_tank": "§5Fuel Tank",
       "item.hypixelsb.valkyrie": "§6Valkyrie"
     }
   },

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PerfectTopaz"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PerfectAmethyst"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PerfectRuby"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PerfectSapphire"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GemstoneMixture"
+    },
+    "name": "gemstone_mixture_recipe",
+    "namespace": "mod"
+  }
+}

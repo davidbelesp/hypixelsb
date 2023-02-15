@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "hypixelsb:enchanted_iron_block"
+    },
+    "3": {
+      "item": "hypixelsb:enchanted_redstone_block"
+    },
+    "4": {
+      "item": "hypixelsb:divan_fragment"
+    },
+    "5": {
+      "item": "hypixelsb:enchanted_gold_block"
+    },
+    "6": {
+      "item": "hypixelsb:enchanted_iron_block"
+    },
+    "7": {
+      "item": "hypixelsb:enchanted_iron_block"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:drill_engine",
+    "count": 1
+  }
+}

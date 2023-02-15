@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hypixelsb:perfect_topaz"
+    },
+    {
+      "item": "hypixelsb:perfect_amethyst"
+    },
+    {
+      "item": "hypixelsb:perfect_ruby"
+    },
+    {
+      "item": "hypixelsb:perfect_sapphire"
+    }
+  ],
+  "result": {
+    "item": "hypixelsb:gemstone_mixture",
+    "count": 1
+  }
+}
