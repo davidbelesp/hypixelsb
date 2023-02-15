@@ -19,12 +19,12 @@ public abstract class StormArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 0;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{7, 11, 13, 9}[slot.getIndex()];
+				return new int[]{4, 8, 10, 7}[slot.getIndex()];
 			}
 
 			@Override
