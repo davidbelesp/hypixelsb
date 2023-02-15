@@ -533,7 +533,7 @@
       "type": "item",
       "sortid": 46,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "necron_catalyst",
       "path": "~/Items"
     },
@@ -577,7 +577,7 @@
       "type": "item",
       "sortid": 51,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "soul_string",
       "path": "~/Items"
     },
@@ -586,7 +586,7 @@
       "type": "item",
       "sortid": 52,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "wither_healing",
       "path": "~/Items"
     },
@@ -595,7 +595,7 @@
       "type": "item",
       "sortid": 53,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "wither_shield",
       "path": "~/Items"
     },
@@ -604,7 +604,7 @@
       "type": "item",
       "sortid": 54,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "giant_slam",
       "path": "~/Items"
     },
@@ -613,7 +613,7 @@
       "type": "item",
       "sortid": 55,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "shadow_warp",
       "path": "~/Items"
     },
@@ -724,7 +724,7 @@
       "type": "item",
       "sortid": 64,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "daylight_saver",
       "path": "~/Items"
     },
@@ -760,7 +760,7 @@
       "type": "item",
       "sortid": 68,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "judgement_core",
       "path": "~/Items"
     },
@@ -778,7 +778,7 @@
       "type": "item",
       "sortid": 70,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "null_atom",
       "path": "~/Items"
     },
@@ -787,7 +787,7 @@
       "type": "item",
       "sortid": 71,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "divans_alloy",
       "path": "~/Items"
     },
@@ -796,7 +796,7 @@
       "type": "item",
       "sortid": 72,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "null_edge",
       "path": "~/Items"
     },
@@ -805,7 +805,7 @@
       "type": "item",
       "sortid": 73,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "null_blade",
       "path": "~/Items"
     },
@@ -993,7 +993,7 @@
       "type": "item",
       "sortid": 93,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "etherwarp_merger",
       "path": "~/Items"
     },
@@ -1004,7 +1004,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "aotv_recipe",
-      "path": "~/Items"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "DaylightSaverRecipe",
@@ -1013,7 +1013,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "daylight_saver_recipe",
-      "path": "~/Items"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "Cooldown",
@@ -1229,6 +1229,42 @@
       "locked_code": false,
       "registry_name": "maxor_boots_recipe",
       "path": "~/Items/Recipes/WitherArmorRecipes"
+    },
+    {
+      "name": "GoldorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldor_helmet_recipe",
+      "path": "~/Items/Recipes/WitherArmorRecipes"
+    },
+    {
+      "name": "GoldorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldor_chestplate_recipe",
+      "path": "~/Items/Recipes/WitherArmorRecipes"
+    },
+    {
+      "name": "GoldorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldor_leggings_recipe",
+      "path": "~/Items/Recipes/WitherArmorRecipes"
+    },
+    {
+      "name": "GoldorBootsRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldor_boots_recipe",
+      "path": "~/Items/Recipes/WitherArmorRecipes"
     }
   ],
   "variable_elements": [],
@@ -1242,15 +1278,15 @@
       "item.hypixelsb.wither_lord_spawn_egg": "Wither Lord Spawn Egg",
       "item.hypixelsb.giant_slam": "§5Giant Slam",
       "item.hypixelsb.null_blade": "§5Null Blade",
-      "item.hypixelsb.gyrokinetic_wand": "§5Aspect of The Void",
+      "item.hypixelsb.gyrokinetic_wand": "§5Gyrokinetic Wand",
       "item.hypixelsb.etherwarp_merger": "§5Etherwarp Merger",
       "item.hypixelsb.necron_armor_boots": "§6Necron Boots",
       "item.hypixelsb.flawed_sapphire": "§9Flawed Sapphire",
-      "item.hypixelsb.divans_drill": "§bDivans Drill",
+      "item.hypixelsb.divans_drill": "§bDivan\u0027s Drill",
       "item.hypixelsb.flawed_topaz": "§9Flawed Topaz",
       "item.hypixelsb.booster_cookie": "§bBooster Cookie",
       "item.hypixelsb.las_reye": "§5L.A.S.R.\u0027s Eye",
-      "item.hypixelsb.daylight_saver": "Daylight Saver",
+      "item.hypixelsb.daylight_saver": "§5Daylight Saver",
       "item.hypixelsb.enchanted_redstone": "§9Enchanted Redstone",
       "item.hypixelsb.fishing_test": "Fishing Test Rod",
       "block.hypixelsb.enchanted_iron_block": "§9Enchanted Iron Block",

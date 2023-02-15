@@ -9,6 +9,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
@@ -32,7 +33,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.hypixelsb.init.HypixelsbModEntities;
 
-public class WitherLordEntity extends Monster {
+public class WitherLordEntity extends EnderMan {
 	public WitherLordEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(HypixelsbModEntities.WITHER_LORD.get(), world);
 	}
@@ -123,11 +124,11 @@ public class WitherLordEntity extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
-		builder = builder.add(Attributes.MAX_HEALTH, 50);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.35);
+		builder = builder.add(Attributes.MAX_HEALTH, 125);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 9);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 64);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 1.5);
 		return builder;
 	}
