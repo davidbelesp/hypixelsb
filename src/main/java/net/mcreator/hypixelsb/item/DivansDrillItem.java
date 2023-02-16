@@ -50,31 +50,24 @@ public class DivansDrillItem extends PickaxeItem {
 		list.add(Component.literal("§7Damage: §c+70"));
 		list.add(Component.literal("§7Mining Speed: §a+1,800"));
 		list.add(Component.literal("§7Mining Fortune: §a+150"));
-		list.add(Component.literal(" §8[§7⸕§8] §8[§7⸕§8] §8[§8☘§8] §8[§8☘§8] §8[§8✦§8]"));
+		list.add(Component.literal(" §6[§6⸕§6] §6[§6⸕§6] §6[§a☘§6] §6[§a☘§6] §6[§5✦§6]"));
 		list.add(Component.literal(""));
-		list.add(Component.literal("§7Fuel Tank: §cNot Installed"));
-		list.add(Component.literal("§7Increases fuel capacity with"));
-		list.add(Component.literal("§7part installed."));
+		list.add(Component.literal("§9Perfectly-Cut Fuel Tank"));
+		list.add(Component.literal("§7Increases the fuel capacity to"));
+		list.add(Component.literal("§2100,000§7."));
 		list.add(Component.literal(""));
-		list.add(Component.literal("§7Drill Engine: §cNot Installed"));
-		list.add(Component.literal("§7Increases §6⸕ Mining Speed"));
-		list.add(Component.literal("§7with part installed."));
+		list.add(Component.literal("§aAmber-polished Drill Engine"));
+		list.add(Component.literal("§7Grants §a+400 §6⸕ Mining"));
+		list.add(Component.literal("§6Speed§7."));
 		list.add(Component.literal(""));
-		list.add(Component.literal("§7Upgrade Module: §cNot Installed"));
-		list.add(Component.literal("§7Applies a passive upgrade with"));
-		list.add(Component.literal("§7part installed."));
+		list.add(Component.literal("§9Sunny Side Goblin Omelette"));
+		list.add(Component.literal("§7Grants §a+50 §6☘ Mining"));
+		list.add(Component.literal("§7Fortune§7, but fuel consumption"));
+		list.add(Component.literal("§7is doubled."));
 		list.add(Component.literal(""));
-		list.add(Component.literal("§7Apply Drill Parts to this Drill"));
-		list.add(Component.literal("§7by talking to a §2Drill"));
-		list.add(Component.literal("§7Mechanic§7!"));
+		list.add(Component.literal("§7Fuel: §291,151§8/100k"));
 		list.add(Component.literal(""));
-		list.add(Component.literal("§7Fuel: §23,000§8"));
-		list.add(Component.literal("3k"));
-		list.add(Component.literal(""));
-		list.add(Component.literal("§8This item can be reforged!"));
-		list.add(Component.literal("§4❣ §cRequires §5Heart of the"));
-		list.add(Component.literal("§7Mountain Tier 7."));
-		list.add(Component.literal("§b§lDIVINE DRILL"));
+		list.add(Component.literal("§b§k§lA §r§b§lDIVINE DRILL §r§b§k§lA"));
 
 	}
 }

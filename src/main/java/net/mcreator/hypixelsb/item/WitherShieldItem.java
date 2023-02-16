@@ -20,6 +20,10 @@ public class WitherShieldItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal(""));
+		list.add(Component.literal("§6Ability: Wither Shield"));
+		list.add(Component.literal("§7Reduces damage taken by §r§c50% §r§7when"));
+		list.add(Component.literal("§7in hand."));
+		list.add(Component.literal(""));
 		list.add(Component.literal("\u00A75\u00A7lEPIC"));
 	}
 }

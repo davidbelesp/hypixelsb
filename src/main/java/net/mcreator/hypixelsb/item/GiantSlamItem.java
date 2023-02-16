@@ -20,6 +20,10 @@ public class GiantSlamItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal(""));
+		list.add(Component.literal("§6Ability: Giant's Slam"));
+		list.add(Component.literal("§7Slam your sword and deals §r§c70 §r§7damage"));
+		list.add(Component.literal("§7to enemies."));
+		list.add(Component.literal(""));
 		list.add(Component.literal("\u00A75\u00A7lEPIC"));
 	}
 }

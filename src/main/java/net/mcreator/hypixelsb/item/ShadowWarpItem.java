@@ -20,6 +20,11 @@ public class ShadowWarpItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal(""));
+        list.add(Component.literal("§6Ability: Shadow Warp"));
+        list.add(Component.literal("§7Creates a spacial distortion §r§c7 §r§7blocks"));
+        list.add(Component.literal("§7ahead of you that kills enemies and"));
+        list.add(Component.literal("§7sucks you into them."));
+		list.add(Component.literal(""));
 		list.add(Component.literal("\u00A75\u00A7lEPIC"));
 	}
 }

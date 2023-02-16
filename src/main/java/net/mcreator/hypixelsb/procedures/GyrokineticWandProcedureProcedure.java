@@ -4,9 +4,13 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.ClipContext;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.hypixelsb.init.HypixelsbModMobEffects;
 
 import java.util.stream.Collectors;
 import java.util.List;
@@ -68,5 +72,7 @@ public class GyrokineticWandProcedureProcedure {
 				}
 			}
 		}
+		if (entity instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(HypixelsbModMobEffects.COOLDOWN.get(), 60, 1, (false), (false)));
 	}
 }

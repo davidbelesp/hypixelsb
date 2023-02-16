@@ -20,6 +20,10 @@ public class WitherHealingItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal(""));
+		list.add(Component.literal("§6Ability: Wither Healing"));
+		list.add(Component.literal("§7Grants §r§eAbsortion §r§7and heals §r§c40% §r§7of"));
+		list.add(Component.literal("§7your health."));
+		list.add(Component.literal(""));
 		list.add(Component.literal("\u00A75\u00A7lEPIC"));
 	}
 }
