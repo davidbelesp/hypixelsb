@@ -74,7 +74,7 @@
       "type": "tool",
       "sortid": 6,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "gyrokinetic_wand",
       "path": "~/Weapons"
     },
@@ -1384,6 +1384,15 @@
         "ec": true
       },
       "path": "~/Armor"
+    },
+    {
+      "name": "DivanDrillRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divan_drill_recipe",
+      "path": "~/Items/Recipes"
     }
   ],
   "variable_elements": [],

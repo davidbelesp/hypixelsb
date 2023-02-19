@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnchantedGoldBlock"
+      },
+      {
+        "value": "CUSTOM:DivanFragment"
+      },
+      {
+        "value": "CUSTOM:EnchantedGoldBlock"
+      },
+      {
+        "value": "CUSTOM:EnchantedIronBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnchantedIronBlock"
+      },
+      {
+        "value": "CUSTOM:EnchantedGoldBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnchantedGoldBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DivanArmor.legs"
+    },
+    "name": "divan_leggings_recipe",
+    "namespace": "mod"
+  }
+}

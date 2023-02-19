@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:enchanted_gold_block"
+    },
+    "2": {
+      "item": "hypixelsb:enchanted_gold_block"
+    },
+    "3": {
+      "item": "hypixelsb:enchanted_iron_block"
+    },
+    "4": {
+      "item": "hypixelsb:divan_fragment"
+    },
+    "5": {
+      "item": "hypixelsb:enchanted_iron_block"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:divan_armor_boots",
+    "count": 1
+  }
+}
