@@ -85,7 +85,7 @@ public class SpecialMobsSpawnProcedure {
 					_level.getServer().getCommands().performPrefixedCommand(
 							new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 2), z), Vec2.ZERO, _level, 4, "", Component.literal(""),
 									_level.getServer(), null).withSuppressedOutput(),
-							"/summon enderman ~ ~1 ~ {carried:121,PersistenceRequired:1,CustomName:\"\\\"\u00A7gSpecial Zealot\\\"\"}");
+							"/summon minecraft:enderman ~ ~1 ~ {CustomName:\"\\\"\u00A7gSpecial Zealot\\\"\",carriedBlockState:{Name:\"minecraft:end_stone\"},PersistenceRequired:1,Team:special,Glowing:1b}");
 			}
 			if ((entity.getDisplayName().getString()).equals("\u00A7gSpecial Zealot")) {
 				endermanSpawn = Math.random();
@@ -100,7 +100,7 @@ public class SpecialMobsSpawnProcedure {
 						_level.getServer().getCommands().performPrefixedCommand(
 								new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 2), z), Vec2.ZERO, _level, 4, "", Component.literal(""),
 										_level.getServer(), null).withSuppressedOutput(),
-								"/summon enderman ~ ~1 ~ {carried:152,PersistenceRequired:1,CustomName:\"\\\"\u00A7gVoidgloom Seraph\\\"\",ActiveEffects:[{Id:5,Amplifier:6,Duration:999999},{Id:11,Amplifier:3,Duration:999999}]}");
+								"/summon minecraft:enderman ~ ~1 ~ {CustomName:\"\\\"\u00A7gVoidgloom Seraph\\\"\",CustomNameVisible:1,Glowing:1b,Health:300.0f,Attributes:[{Name:\"generic.max_health\",Base:300}],carriedBlockState:{Name:\"hypixelsb:enchanted_obsidian\"},ActiveEffects:[{Id:5,Amplifier:4,Duration:2147483647}],Team:boss}");
 				}
 			}
 		}

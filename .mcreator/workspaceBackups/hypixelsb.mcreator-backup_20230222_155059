@@ -1420,14 +1420,61 @@
       "locked_code": false,
       "registry_name": "divan_leggings_recipe",
       "path": "~/Items/Recipes"
+    },
+    {
+      "name": "DivanBootsRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divan_boots_recipe",
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "WitherLordTable",
+      "type": "loottable",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_lord_table",
+      "path": "~/LootTables"
+    },
+    {
+      "name": "TeamsProcedure",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teams_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.hypixelsb.goldor_armor_leggings": "§6Goldor Leggings",
       "item.hypixelsb.divan_spawn_egg": "Divan Spawn Egg",
+      "item.hypixelsb.goldor_armor_leggings": "§6Goldor Leggings",
       "item.hypixelsb.maxor_armor_chestplate": "§6Maxor Chestplate",
       "item.hypixelsb.necrons_blade": "§6Necron\u0027s Blade (Unrefined)",
       "item.hypixelsb.wither_lord_spawn_egg": "Wither Lord Spawn Egg",
@@ -1559,6 +1606,10 @@
       },
       {
         "name": "potion",
+        "children": []
+      },
+      {
+        "name": "LootTables",
         "children": []
       }
     ]

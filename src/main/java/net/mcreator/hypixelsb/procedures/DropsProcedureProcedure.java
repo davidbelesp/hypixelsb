@@ -21,7 +21,6 @@ import net.minecraft.network.chat.Component;
 
 import net.mcreator.hypixelsb.init.HypixelsbModItems;
 import net.mcreator.hypixelsb.init.HypixelsbModBlocks;
-import net.mcreator.hypixelsb.entity.WitherLordEntity;
 
 import javax.annotation.Nullable;
 
@@ -201,37 +200,6 @@ public class DropsProcedureProcedure {
 					if (_mcserv != null)
 						_mcserv.getPlayerList().broadcastSystemMessage(
 								Component.literal("\u00A7d\u00A7lCRAZY RARE DROP! \u00A7r\u00A79 Soul String \u00A7r\u00A7b(1%)"), false);
-				}
-			}
-		}
-		if (entity instanceof WitherLordEntity) {
-			randomNumber = Math.random();
-			if (randomNumber < 0.025) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.WITHER_ARMOR_HELMET.get()));
-					entityToSpawn.setPickUpDelay(10);
-					_level.addFreshEntity(entityToSpawn);
-				}
-			}
-			if (randomNumber >= 0.025 && randomNumber < 0.05) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.WITHER_ARMOR_CHESTPLATE.get()));
-					entityToSpawn.setPickUpDelay(10);
-					_level.addFreshEntity(entityToSpawn);
-				}
-			}
-			if (randomNumber >= 0.05 && randomNumber < 0.075) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.WITHER_ARMOR_LEGGINGS.get()));
-					entityToSpawn.setPickUpDelay(10);
-					_level.addFreshEntity(entityToSpawn);
-				}
-			}
-			if (randomNumber >= 0.075 && randomNumber < 0.1) {
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.WITHER_ARMOR_BOOTS.get()));
-					entityToSpawn.setPickUpDelay(10);
-					_level.addFreshEntity(entityToSpawn);
 				}
 			}
 		}

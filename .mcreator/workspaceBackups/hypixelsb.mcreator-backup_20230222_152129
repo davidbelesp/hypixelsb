@@ -1429,6 +1429,44 @@
       "locked_code": false,
       "registry_name": "divan_boots_recipe",
       "path": "~/Items/Recipes"
+    },
+    {
+      "name": "WitherLordTable",
+      "type": "loottable",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_lord_table",
+      "path": "~/LootTables"
+    },
+    {
+      "name": "TeamsProcedure",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teams_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -1568,6 +1606,10 @@
       },
       {
         "name": "potion",
+        "children": []
+      },
+      {
+        "name": "LootTables",
         "children": []
       }
     ]
