@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.hypixelsb.init.HypixelsbModMobEffects;
 import net.mcreator.hypixelsb.init.HypixelsbModItems;
 import net.mcreator.hypixelsb.init.HypixelsbModEntities;
+import net.mcreator.hypixelsb.init.HypixelsbModEnchantments;
 import net.mcreator.hypixelsb.init.HypixelsbModBlocks;
 
 import java.util.function.Supplier;
@@ -56,6 +57,8 @@ public class HypixelsbMod {
 		HypixelsbModEntities.REGISTRY.register(bus);
 
 		HypixelsbModMobEffects.REGISTRY.register(bus);
+
+		HypixelsbModEnchantments.REGISTRY.register(bus);
 
 	}
 

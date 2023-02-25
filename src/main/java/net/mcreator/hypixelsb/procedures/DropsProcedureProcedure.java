@@ -6,6 +6,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -16,8 +18,11 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.boss.wither.WitherBoss;
 import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.network.chat.Component;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 import net.mcreator.hypixelsb.init.HypixelsbModItems;
 import net.mcreator.hypixelsb.init.HypixelsbModBlocks;
@@ -175,14 +180,24 @@ public class DropsProcedureProcedure {
 									Component.literal("\u00A79\u00A7lRARE DROP! \u00A7r\u00A79Enchanted Obsidian \u00A7r\u00A7b(10%)"), false);
 					}
 				}
-				for (int index0 = 0; index0 < (int) (6); index0++) {
-					randomNumber = Math.random();
-					if (randomNumber < 0.2) {
-						if (world instanceof Level _level && !_level.isClientSide()) {
-							ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.NULL_ATOM.get()));
-							entityToSpawn.setPickUpDelay(10);
-							_level.addFreshEntity(entityToSpawn);
-						}
+				for (int index0 = 0; index0 < (int) (Math.round(Math.random() * 5) + 5); index0++) {
+					if (world instanceof Level _level && !_level.isClientSide()) {
+						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.NULL_ATOM.get()));
+						entityToSpawn.setPickUpDelay(10);
+						_level.addFreshEntity(entityToSpawn);
+					}
+				}
+				if (randomNumber < 0.5) {
+					if (world instanceof ServerLevel _level)
+						_level.getServer().getCommands().performPrefixedCommand(
+								new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""),
+										_level.getServer(), null).withSuppressedOutput(),
+								"/give @p enchanted_book{StoredEnchantments:[{id:\"hypixelsb:ender_slayer\",lvl:3}]} 1");
+					if (!world.isClientSide()) {
+						MinecraftServer _mcserv = ServerLifecycleHooks.getCurrentServer();
+						if (_mcserv != null)
+							_mcserv.getPlayerList().broadcastSystemMessage(
+									Component.literal("\u00A79\u00A7lRARE DROP! \u00A7r\u00A79Ender Slayer III \u00A7r\u00A7b(50%)"), false);
 					}
 				}
 			}

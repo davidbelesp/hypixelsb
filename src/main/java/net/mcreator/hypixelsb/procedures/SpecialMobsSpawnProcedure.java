@@ -74,7 +74,7 @@ public class SpecialMobsSpawnProcedure {
 		if (entity instanceof EnderMan) {
 			zealotspawn = Math.random();
 			endermanSpawn = Math.random();
-			if (zealotspawn <= 0.01) {
+			if (zealotspawn <= 0.07) {
 				if (!world.isClientSide()) {
 					MinecraftServer _mcserv = ServerLifecycleHooks.getCurrentServer();
 					if (_mcserv != null)
@@ -100,7 +100,7 @@ public class SpecialMobsSpawnProcedure {
 						_level.getServer().getCommands().performPrefixedCommand(
 								new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 2), z), Vec2.ZERO, _level, 4, "", Component.literal(""),
 										_level.getServer(), null).withSuppressedOutput(),
-								"/summon minecraft:enderman ~ ~1 ~ {CustomName:\"\\\"\u00A7gVoidgloom Seraph\\\"\",CustomNameVisible:1,Glowing:1b,Health:300.0f,Attributes:[{Name:\"generic.max_health\",Base:300}],carriedBlockState:{Name:\"hypixelsb:enchanted_obsidian\"},ActiveEffects:[{Id:5,Amplifier:4,Duration:2147483647}],Team:boss}");
+								"/summon minecraft:enderman ~ ~1 ~ {CustomName:\"\\\"\u00A7gVoidgloom Seraph\\\"\",CustomNameVisible:1,Glowing:1b,Health:300.0f,Attributes:[{Name:\"generic.max_health\",Base:300}],carriedBlockState:{Name:\"hypixelsb:enchanted_obsidian\"},ActiveEffects:[{Id:5,Amplifier:10,Duration:2147483647},{Id:11,Amplifier:1,Duration:2147483647}],Team:boss}");
 				}
 			}
 		}
