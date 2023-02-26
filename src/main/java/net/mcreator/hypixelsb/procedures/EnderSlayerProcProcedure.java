@@ -41,7 +41,8 @@ public class EnderSlayerProcProcedure {
 				&& (entity instanceof EnderMan || entity instanceof Shulker || entity instanceof EnderDragon || entity instanceof Endermite)) {
 			enchLevel = EnchantmentHelper.getItemEnchantmentLevel(HypixelsbModEnchantments.ENDER_SLAYER.get(),
 					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY));
-			entity.hurt(DamageSource.GENERIC, (float) (enchLevel * 10));
+			entity.hurt(DamageSource.GENERIC, (float) (EnchantmentHelper.getItemEnchantmentLevel(HypixelsbModEnchantments.ENDER_SLAYER.get(),
+					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 10));
 		}
 	}
 }

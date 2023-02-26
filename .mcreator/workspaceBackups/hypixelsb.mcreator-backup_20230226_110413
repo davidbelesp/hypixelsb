@@ -1467,14 +1467,44 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "EnderSlayer",
+      "type": "enchantment",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_slayer",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "EnderSlayerProc",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_slayer_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.hypixelsb.divan_spawn_egg": "Divan Spawn Egg",
       "item.hypixelsb.goldor_armor_leggings": "§6Goldor Leggings",
+      "item.hypixelsb.divan_spawn_egg": "Divan Spawn Egg",
       "item.hypixelsb.maxor_armor_chestplate": "§6Maxor Chestplate",
       "item.hypixelsb.necrons_blade": "§6Necron\u0027s Blade (Unrefined)",
       "item.hypixelsb.wither_lord_spawn_egg": "Wither Lord Spawn Egg",
@@ -1522,6 +1552,7 @@
       "item.hypixelsb.scylla": "§6Scylla",
       "item.hypixelsb.storm_armor_leggings": "§6Storm\u0027s Leggings",
       "item.hypixelsb.divan_fragment": "§5Divan Fragment",
+      "enchantment.hypixelsb.ender_slayer": "Ender Slayer",
       "item.hypixelsb.flawed_ruby": "§9Flawed Ruby",
       "item.hypixelsb.enchanted_gold": "§9Enchanted Gold",
       "item.hypixelsb.astraea": "§6Astraea",
@@ -1610,6 +1641,10 @@
       },
       {
         "name": "LootTables",
+        "children": []
+      },
+      {
+        "name": "Enchantments",
         "children": []
       }
     ]

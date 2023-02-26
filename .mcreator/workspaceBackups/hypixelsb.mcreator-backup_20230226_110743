@@ -1482,7 +1482,7 @@
       "type": "procedure",
       "sortid": 135,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ender_slayer_proc",
       "metadata": {
         "dependencies": [
@@ -1503,8 +1503,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.hypixelsb.divan_spawn_egg": "Divan Spawn Egg",
       "item.hypixelsb.goldor_armor_leggings": "§6Goldor Leggings",
+      "item.hypixelsb.divan_spawn_egg": "Divan Spawn Egg",
       "item.hypixelsb.maxor_armor_chestplate": "§6Maxor Chestplate",
       "item.hypixelsb.necrons_blade": "§6Necron\u0027s Blade (Unrefined)",
       "item.hypixelsb.wither_lord_spawn_egg": "Wither Lord Spawn Egg",
