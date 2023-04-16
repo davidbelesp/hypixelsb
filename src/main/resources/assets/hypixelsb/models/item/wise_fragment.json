@@ -1,0 +1,7 @@
+{
+  "parent": "hypixelsb:custom/wise",
+  "textures": {
+    "0": "hypixelsb:blocks/wise",
+    "particle": "hypixelsb:items/protector"
+  }
+}

@@ -70,4 +70,5 @@ public class DivansDrillItem extends PickaxeItem {
 		list.add(Component.literal("§b§k§lA §r§b§lDIVINE DRILL §r§b§k§lA"));
 
 	}
+
 }

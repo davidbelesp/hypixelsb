@@ -1,0 +1,7 @@
+{
+  "parent": "hypixelsb:custom/strong",
+  "textures": {
+    "0": "hypixelsb:blocks/strong",
+    "particle": "hypixelsb:items/protector"
+  }
+}

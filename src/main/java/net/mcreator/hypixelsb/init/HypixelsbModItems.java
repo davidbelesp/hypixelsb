@@ -14,20 +14,28 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.hypixelsb.item.YoungFragmentItem;
 import net.mcreator.hypixelsb.item.WitherShieldItem;
 import net.mcreator.hypixelsb.item.WitherHealingItem;
 import net.mcreator.hypixelsb.item.WitherCatalystItem;
 import net.mcreator.hypixelsb.item.WitherArmorItem;
+import net.mcreator.hypixelsb.item.WiseFragmentItem;
 import net.mcreator.hypixelsb.item.ValkyrieItem;
+import net.mcreator.hypixelsb.item.UnstableFragmentItem;
 import net.mcreator.hypixelsb.item.TerminatorItem;
+import net.mcreator.hypixelsb.item.SuperiorFragmentItem;
+import net.mcreator.hypixelsb.item.StrongItem;
+import net.mcreator.hypixelsb.item.StrongFragmentItem;
 import net.mcreator.hypixelsb.item.StormArmorItem;
 import net.mcreator.hypixelsb.item.SoulStringItem;
 import net.mcreator.hypixelsb.item.ShadowWarpItem;
 import net.mcreator.hypixelsb.item.ScyllaItem;
+import net.mcreator.hypixelsb.item.ProtectorFragmentItem;
 import net.mcreator.hypixelsb.item.PerfectTopazItem;
 import net.mcreator.hypixelsb.item.PerfectSapphireItem;
 import net.mcreator.hypixelsb.item.PerfectRubyItem;
 import net.mcreator.hypixelsb.item.PerfectAmethystItem;
+import net.mcreator.hypixelsb.item.OldFragmentItem;
 import net.mcreator.hypixelsb.item.NullEdgeItem;
 import net.mcreator.hypixelsb.item.NullBladeItem;
 import net.mcreator.hypixelsb.item.NullAtomItem;
@@ -40,6 +48,7 @@ import net.mcreator.hypixelsb.item.LASReyeItem;
 import net.mcreator.hypixelsb.item.JudgementCoreItem;
 import net.mcreator.hypixelsb.item.JollyPinkRockItem;
 import net.mcreator.hypixelsb.item.HyperionItem;
+import net.mcreator.hypixelsb.item.HolyFragmentItem;
 import net.mcreator.hypixelsb.item.GyrokineticWandItem;
 import net.mcreator.hypixelsb.item.GoldorArmorItem;
 import net.mcreator.hypixelsb.item.GiantSlamItem;
@@ -174,6 +183,17 @@ public class HypixelsbModItems {
 			() -> new FinalDestinationArmorItem.Leggings());
 	public static final RegistryObject<Item> FINAL_DESTINATION_ARMOR_BOOTS = REGISTRY.register("final_destination_armor_boots",
 			() -> new FinalDestinationArmorItem.Boots());
+	public static final RegistryObject<Item> PROTECTOR_FRAGMENT = REGISTRY.register("protector_fragment", () -> new ProtectorFragmentItem());
+	public static final RegistryObject<Item> HOLY_FRAGMENT = REGISTRY.register("holy_fragment", () -> new HolyFragmentItem());
+	public static final RegistryObject<Item> STRONG_FRAGMENT = REGISTRY.register("strong_fragment", () -> new StrongFragmentItem());
+	public static final RegistryObject<Item> SUPERIOR_FRAGMENT = REGISTRY.register("superior_fragment", () -> new SuperiorFragmentItem());
+	public static final RegistryObject<Item> WISE_FRAGMENT = REGISTRY.register("wise_fragment", () -> new WiseFragmentItem());
+	public static final RegistryObject<Item> UNSTABLE_FRAGMENT = REGISTRY.register("unstable_fragment", () -> new UnstableFragmentItem());
+	public static final RegistryObject<Item> YOUNG_FRAGMENT = REGISTRY.register("young_fragment", () -> new YoungFragmentItem());
+	public static final RegistryObject<Item> OLD_FRAGMENT = REGISTRY.register("old_fragment", () -> new OldFragmentItem());
+	public static final RegistryObject<Item> STRONG_CHESTPLATE = REGISTRY.register("strong_chestplate", () -> new StrongItem.Chestplate());
+	public static final RegistryObject<Item> STRONG_LEGGINGS = REGISTRY.register("strong_leggings", () -> new StrongItem.Leggings());
+	public static final RegistryObject<Item> STRONG_BOOTS = REGISTRY.register("strong_boots", () -> new StrongItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

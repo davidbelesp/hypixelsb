@@ -24,7 +24,7 @@ public abstract class StormArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{4, 8, 10, 7}[slot.getIndex()];
+				return new int[]{4, 7, 8, 6}[slot.getIndex()];
 			}
 
 			@Override

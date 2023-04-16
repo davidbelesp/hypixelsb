@@ -1,0 +1,7 @@
+{
+  "parent": "hypixelsb:custom/superior",
+  "textures": {
+    "0": "hypixelsb:blocks/superior",
+    "particle": "hypixelsb:items/protector"
+  }
+}

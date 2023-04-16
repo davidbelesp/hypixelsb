@@ -36,43 +36,46 @@ public class GemstonesProceduresProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (Math.random() < 0.00045) {
-			if (event != null && event.isCancelable()) {
-				event.setCanceled(true);
+		if (entity instanceof Player) {
+			if (Math.random() < 0.00002) {
+				if (event != null && event.isCancelable()) {
+					event.setCanceled(true);
+				}
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(
+							new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""),
+									_level.getServer(), null).withSuppressedOutput(),
+							("setblock ~ ~ ~ minecraft:chest{Items:[{"
+									+ ("Slot:" + Math.round(Math.random() * 26) + ",id:" + "\"hypixelsb:flawed_topaz\"" + ",Count:"
+											+ Math.round(Math.random() * 3))
+									+ "},{"
+									+ ("Slot:" + Math.round(Math.random() * 26) + ",id:" + "\"hypixelsb:flawed_amethyst\"" + ",Count:"
+											+ Math.round(Math.random() * 3))
+									+ "},{"
+									+ ("Slot:" + Math.round(Math.random() * 26) + ",id:" + "\"hypixelsb:flawed_ruby\"" + ",Count:"
+											+ Math.round(Math.random() * 3))
+									+ "},{" + ("Slot:" + Math.round(Math.random() * 26) + ",id:" + "\"hypixelsb:flawed_sapphire\"" + ",Count:"
+											+ Math.round(Math.random() * 3))
+									+ "}]} replace"));
+				if (entity instanceof Player _player && !_player.level.isClientSide())
+					_player.displayClientMessage(Component.literal("\u00A7aA gemstone chest has appeared!"), (true));
 			}
-			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(
-						new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""),
-								_level.getServer(), null).withSuppressedOutput(),
-						("setblock ~ ~ ~ minecraft:chest{Items:[{" + ("Slot:"
-								+ Math.round(Math.random() * 26) + ",id:" + "\"hypixelsb:flawed_topaz\"" + ",Count:" + Math.round(Math.random() * 3))
-								+ "},{"
-								+ ("Slot:" + Math.round(Math.random() * 26) + ",id:" + "\"hypixelsb:flawed_amethyst\"" + ",Count:"
-										+ Math.round(Math.random() * 3))
-								+ "},{"
-								+ ("Slot:" + Math.round(Math.random() * 26) + ",id:" + "\"hypixelsb:flawed_ruby\"" + ",Count:"
-										+ Math.round(Math.random() * 3))
-								+ "},{" + ("Slot:" + Math.round(Math.random() * 26) + ",id:" + "\"hypixelsb:flawed_sapphire\"" + ",Count:"
-										+ Math.round(Math.random() * 3))
-								+ "}]} replace"));
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("\u00A7aA gemstone chest has appeared!"), (true));
-		}
-		if (Math.random() < 0.000005) {
-			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO,
-						_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "/summon hypixelsb:divan");
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("\u00A74 You found a Divan's tomb!"), (true));
-		}
-		if (Math.random() < 0.00001) {
-			if (world instanceof Level _level && !_level.isClientSide()) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.DIVAN_FRAGMENT.get()));
-				entityToSpawn.setPickUpDelay(10);
-				_level.addFreshEntity(entityToSpawn);
+			if (Math.random() < 0.000001) {
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO,
+							_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "/summon hypixelsb:divan");
+				if (entity instanceof Player _player && !_player.level.isClientSide())
+					_player.displayClientMessage(Component.literal("\u00A74 You found a Divan's tomb!"), (true));
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("\u00A7c You found a Divan's fragment!"), (true));
+			if (Math.random() < 0.00001) {
+				if (world instanceof Level _level && !_level.isClientSide()) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(HypixelsbModItems.DIVAN_FRAGMENT.get()));
+					entityToSpawn.setPickUpDelay(10);
+					_level.addFreshEntity(entityToSpawn);
+				}
+				if (entity instanceof Player _player && !_player.level.isClientSide())
+					_player.displayClientMessage(Component.literal("\u00A7c You found a Divan's fragment!"), (true));
+			}
 		}
 	}
 }

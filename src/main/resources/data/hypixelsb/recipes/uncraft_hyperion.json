@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:hyperion"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:necrons_blade",
+    "count": 1
+  }
+}

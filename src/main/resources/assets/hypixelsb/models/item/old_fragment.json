@@ -1,0 +1,7 @@
+{
+  "parent": "hypixelsb:custom/old",
+  "textures": {
+    "0": "hypixelsb:blocks/old",
+    "particle": "hypixelsb:items/protector"
+  }
+}

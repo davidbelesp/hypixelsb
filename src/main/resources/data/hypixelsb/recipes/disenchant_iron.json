@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:enchanted_iron"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_block",
+    "count": 9
+  }
+}

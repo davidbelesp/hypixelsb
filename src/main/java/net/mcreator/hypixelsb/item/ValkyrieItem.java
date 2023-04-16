@@ -25,7 +25,7 @@ public class ValkyrieItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 81f;
+				return 95f;
 			}
 
 			public int getLevel() {
@@ -45,7 +45,7 @@ public class ValkyrieItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("§7Damage: §r§c+80"));
+		list.add(Component.literal("§7Damage: §r§c+94"));
 		list.add(Component.literal(""));
 		list.add(Component.literal("§6Ability: Giant's Slam §r§e§lLEFT CLICK"));
 		list.add(Component.literal("§7Slam your sword and deals §r§c70 §r§7damage"));

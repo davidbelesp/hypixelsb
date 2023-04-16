@@ -24,9 +24,9 @@ public class DivanArmorProcedureProcedure {
 			if (entity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 60, 126));
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 60, 1));
+				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 60, 126));
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 60, 1));
+				_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 60, 127));
 		}
 	}
 }
