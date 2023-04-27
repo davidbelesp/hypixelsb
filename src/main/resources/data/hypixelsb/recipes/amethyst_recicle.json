@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:perfect_amethyst"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:enchanted_iron",
+    "count": 25
+  }
+}

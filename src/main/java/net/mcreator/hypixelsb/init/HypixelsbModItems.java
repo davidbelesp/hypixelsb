@@ -24,6 +24,7 @@ import net.mcreator.hypixelsb.item.ValkyrieItem;
 import net.mcreator.hypixelsb.item.UnstableFragmentItem;
 import net.mcreator.hypixelsb.item.TerminatorItem;
 import net.mcreator.hypixelsb.item.SuperiorFragmentItem;
+import net.mcreator.hypixelsb.item.SummoningEyeItem;
 import net.mcreator.hypixelsb.item.StrongItem;
 import net.mcreator.hypixelsb.item.StrongFragmentItem;
 import net.mcreator.hypixelsb.item.StormArmorItem;
@@ -69,6 +70,7 @@ import net.mcreator.hypixelsb.item.EnchantedRedstoneItem;
 import net.mcreator.hypixelsb.item.EnchantedQuartzItem;
 import net.mcreator.hypixelsb.item.EnchantedIronItem;
 import net.mcreator.hypixelsb.item.EnchantedGoldItem;
+import net.mcreator.hypixelsb.item.EnchantedDiamondItem;
 import net.mcreator.hypixelsb.item.DrillEngineItem;
 import net.mcreator.hypixelsb.item.DivansDrillItem;
 import net.mcreator.hypixelsb.item.DivansAlloyItem;
@@ -190,10 +192,14 @@ public class HypixelsbModItems {
 	public static final RegistryObject<Item> WISE_FRAGMENT = REGISTRY.register("wise_fragment", () -> new WiseFragmentItem());
 	public static final RegistryObject<Item> UNSTABLE_FRAGMENT = REGISTRY.register("unstable_fragment", () -> new UnstableFragmentItem());
 	public static final RegistryObject<Item> YOUNG_FRAGMENT = REGISTRY.register("young_fragment", () -> new YoungFragmentItem());
-	public static final RegistryObject<Item> OLD_FRAGMENT = REGISTRY.register("old_fragment", () -> new OldFragmentItem());
 	public static final RegistryObject<Item> STRONG_CHESTPLATE = REGISTRY.register("strong_chestplate", () -> new StrongItem.Chestplate());
 	public static final RegistryObject<Item> STRONG_LEGGINGS = REGISTRY.register("strong_leggings", () -> new StrongItem.Leggings());
 	public static final RegistryObject<Item> STRONG_BOOTS = REGISTRY.register("strong_boots", () -> new StrongItem.Boots());
+	public static final RegistryObject<Item> OLD_FRAGMENT = REGISTRY.register("old_fragment", () -> new OldFragmentItem());
+	public static final RegistryObject<Item> ENCHANTED_DIAMOND = REGISTRY.register("enchanted_diamond", () -> new EnchantedDiamondItem());
+	public static final RegistryObject<Item> ENCHANTED_DIAMOND_BLOCK = block(HypixelsbModBlocks.ENCHANTED_DIAMOND_BLOCK,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SUMMONING_EYE = REGISTRY.register("summoning_eye", () -> new SummoningEyeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -15,6 +15,8 @@ public class ScyllaProcedureProcedure {
 		double repeats = 0;
 		boolean found = false;
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 4));
+		if (entity instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 60, 10, (false), (false)));
 	}
 }

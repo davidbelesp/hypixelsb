@@ -1,0 +1,7 @@
+{
+  "parent": "hypixelsb:custom/summoning_eye",
+  "textures": {
+    "0": "hypixelsb:blocks/2019_10_04_summoning-eye-13529168",
+    "particle": "hypixelsb:items/2019_10_04_summoning-eye-13529168"
+  }
+}

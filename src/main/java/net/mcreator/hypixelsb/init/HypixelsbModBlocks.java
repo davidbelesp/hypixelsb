@@ -15,6 +15,7 @@ import net.mcreator.hypixelsb.block.EnchantedQuartzBlockBlock;
 import net.mcreator.hypixelsb.block.EnchantedObsidianBlock;
 import net.mcreator.hypixelsb.block.EnchantedIronBlockBlock;
 import net.mcreator.hypixelsb.block.EnchantedGoldBlockBlock;
+import net.mcreator.hypixelsb.block.EnchantedDiamondBlockBlock;
 import net.mcreator.hypixelsb.HypixelsbMod;
 
 public class HypixelsbModBlocks {
@@ -26,4 +27,6 @@ public class HypixelsbModBlocks {
 			() -> new EnchantedRedstoneBlockBlock());
 	public static final RegistryObject<Block> ENCHANTED_IRON_BLOCK = REGISTRY.register("enchanted_iron_block", () -> new EnchantedIronBlockBlock());
 	public static final RegistryObject<Block> ENCHANTED_GOLD_BLOCK = REGISTRY.register("enchanted_gold_block", () -> new EnchantedGoldBlockBlock());
+	public static final RegistryObject<Block> ENCHANTED_DIAMOND_BLOCK = REGISTRY.register("enchanted_diamond_block",
+			() -> new EnchantedDiamondBlockBlock());
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hypixelsb:perfect_ruby"
+    }
+  },
+  "result": {
+    "item": "hypixelsb:enchanted_redstone",
+    "count": 25
+  }
+}
